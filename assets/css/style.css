@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* ----------------------------------------------------Navbar ---------------------------------*/
+.navbar-style {
+    background-color:  #88275d;
+    padding-left: 50px;
+}
+
+.navbar-style {
+  color:  #fafafa;
+}
+
+
+.menuitem a {
+    font-size: x-large;
+    padding-left: 20px;
+   color: #fafafa;
+}
+
+.navbar-nav li{
+    padding-left: 20px;
+}
+
+.navbar-toggler-icon {
+    border-color: #fafafa;
+    width: 35px;
+    height: 3px;
+   background-color: #fafafa;
+    margin: 6px 0;
+}
+
+
+/* ---------------------------------------------Hero Section ----------------------------------*/
+
+.hero-container {
+    height: 750px;
+    background: url('../images/meditate.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fafafa;
+}
+
+.jumbotron {
+    text-align: center;
+    background:transparent;
+    text-shadow: 5px 3px 10px #000;
+}

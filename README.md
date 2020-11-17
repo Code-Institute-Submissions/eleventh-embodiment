@@ -4,9 +4,10 @@ Main purpose of this project was to build a website for my First Milestone Proje
 I have decided to build a website for a friend of mine who is a yoga teacher and an alternative healer. Idea was to create a place where people can learn about different types of yoga, 
 different healing techniques, and to be able to book yoga or healing sessions, workshop and retreats.
 Website owner's goal is to attract more visitiors to the website wich will result in a bigger community, larger following on social media, and ultimately more people booking her classes, healing seassions or retreats.  
+
 ## UX
  
-Idea was to create a website that will be easy to navigate so that user can quickly find what they are looking for, but also to have a space that serves as a community of likeminded people who often socialise, practice together and help eachother. 
+Idea was to create a website that will be easy to navigate so that user can quickly find what they are looking for, but also to have a space that serves as a community of likeminded people who often socialise, practice yoga together and help eachother. 
 
 
 #### As a first time user,
@@ -33,7 +34,7 @@ Idea was to create a website that will be easy to navigate so that user can quic
 
 ## Wireframes 
 
-[Home Page]
+[Home Page](https://github.com/TanYa-Go/eleventh-embodiment/tree/master/assets/wireframes)
 [About Page]
 [Yoga Page]
 [Healing Page]
@@ -51,6 +52,7 @@ Idea was to create a website that will be easy to navigate so that user can quic
 
 
 ## Technologies Used
+
 
 
 

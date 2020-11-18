@@ -19,7 +19,11 @@ body {
 .menuitem a {
     font-size: x-large;
     padding-left: 20px;
-   color: #fafafa;
+    color: #fafafa;
+}
+
+.menuitem a:hover{
+    border-bottom: 1px solid #fafafa;
 }
 
 .navbar-nav li{
@@ -30,12 +34,15 @@ body {
     border-color: #fafafa;
     width: 35px;
     height: 3px;
-   background-color: #fafafa;
+    background-color: #fafafa;
     margin: 6px 0;
 }
 
+.navbar-toggler {
+    padding: 0;
+}
 
-/* ---------------------------------------------Hero Section ----------------------------------*/
+/* ---------------------------------------------Hero Image Section ----------------------------------*/
 
 .hero-container {
     height: 750px;
@@ -49,10 +56,50 @@ body {
     justify-content: center;
     position: relative;
     color: #fafafa;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.hero-outer{
+    height:750px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 
 .jumbotron {
     text-align: center;
     background:transparent;
     text-shadow: 5px 3px 10px #000;
+}
+
+.lead {
+    font-size: xxx-large;
+   /* font-weight: 500;*/
+}
+  
+.btn {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.about {
+    height: 400px;
+    align-items:center;
+    justify-content: center;
+    color: #88275d;
+    text-align: center;
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+    letter-spacing: 2px;
 }

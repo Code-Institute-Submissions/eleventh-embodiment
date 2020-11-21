@@ -89,13 +89,14 @@ body {
   
 
 .about {
-    height: 400px;
+    height: 300px;
     justify-content: center;
     align-items: center;
     color:  #88275d;
-    text-align: justify;
+    text-align: center;
     text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
-    margin-bottom:80px;
+    padding-top: 10px;
+    margin:0 auto;
 }
 
 .welcome-container {
@@ -107,49 +108,67 @@ body {
     color: #fafafa;
     
  }
-.hr-rule {
+
+/*.hr-rule {
     border: 3px solid #88275d;
     width: 700px;
-}
- .title {
+}*/
+ .about h3 {
      text-align: center;
-     margin-top: 20px;
+     margin-top: 30px;
      color: #88275d;
  }
 
 
 .welcome-text{
-    height: 450px;
+    height: 350px;
     width: 100%;
     text-align: center;
-    color: #88275d;
-    padding: 5px 50px 20px 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #88275d;
+    padding: 50px 50px 30px 30px;
+    margin-left: 100px;
+   /* margin-bottom: 10px;*/
     
-   }
+}
 
+.welcome-text h5 a {
+    color: #fafafa;
+}
+
+.welcome-text h5 a:hover {
+  color: #88275d;
+  opacity: 0.2;
+}
 .btn-about{
     margin-top: 10px;
 }
 
 .welcome-img {
   background-image: url("../images/face.jpg");
-  height: 390px;
+  height: 350px;
   width: 330px;
-  margin-left:60px;
-   
-  }
+  margin-left:151px;
+
+}
 
 .quote-img {
- background-image: url("../images/yogi.jpg");
- background-repeat: no repeat, no-repeat;
-  height: 290px;
-  width: 229px;
-  padding-left: 50px;
-
-  
+background-image: url("../images/yogi.jpg");
+background-repeat: no repeat, no-repeat;
+height: 290px;
+width: 229px;
+margin-left: 120px;
+margin-top: 0px;
 }
+.quote-text {
+  text-align: center;
+  padding-top: 60px;
+  margin-left: 180px;
+  color: #88275d;
+  font-weight: 600;
+}
+  
+
 /*----------------------------------Footer--------------------*/
 .social-media {
     text-align: center;
@@ -166,6 +185,10 @@ body {
     margin-right: 50px;
 }
 
+.social-media li a:hover {
+  opacity: 0.2;
+  
+}
 
 footer {
     height: 250px;
@@ -184,6 +207,14 @@ footer {
    margin-top: 60px;
    font-size: small;
 }
+.contact a {
+    color: #fafafa;
+}
+.contact a:hover {
+  opacity: 0.2;
+  text-decoration: underline;
+}
+
 
 /*--------------------------------------Contact form----------------*/
 
@@ -208,11 +239,10 @@ footer {
     text-align: center;
 }
 
-  .form-control {
+.form-control {
     background: transparent;
     width: 100%;
-    height: 25px;
-    /*margin5px 0 20px 0;*/
+    height: 35px;
     border: 1px solid #fafafa;
     border-radius: 5px;
 }
@@ -242,7 +272,13 @@ footer {
 }
 
 /*----------------------------------------------Class times-----------------------*/
-
+.class-heading {
+    height: 100px;
+    background-color: #88275d;
+    color: #fafafa; 
+    text-align: center;
+    padding-top: 20px;
+}
 #class-times{
     background-image: url('../images/women.jpg');
     background-repeat: no-repeat;
@@ -258,9 +294,9 @@ footer {
     width: 24%;
     height: 300px;
     float: left;
-    padding: 30px 0px 10px 10px;
+    padding: 30px 0px 0px 10px;
     text-align: center;
-    margin: 6px;
+    margin: 7px;
 }
 
 #class-times h3 {

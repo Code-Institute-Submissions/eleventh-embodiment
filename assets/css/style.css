@@ -1,319 +1,384 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Rajdhani:wght@300&display=swap");
 
 body {
-    font-family: Roboto, sans-serif;
-   
+  font-family: Lato, sans-serif;
 }
 
 /* ----------------------------------------------------Navbar ---------------------------------*/
-.navbar-style {
-    background-color:   #88275d;
-    padding-left: 30px;
-    color:  #fafafa;
-}
 
+.navbar-style {
+  background-color: #88275d;
+  padding-left: 30px;
+  color: #fafafa;
+}
 
 .menuitem a {
-    font-size: x-large;
-    padding-left: 20px;
-    color: #fafafa;
+  font-size: x-large;
+  padding-left: 20px;
+  color: #fafafa;
 }
 
-.menuitem a:hover{
-    border-bottom: 1px solid #fafafa;
+.menuitem a:hover {
+  border-bottom: 1px solid #fafafa;
 }
 
-.navbar-nav li{
-    padding-left: 20px;
+.active {
+  border-bottom: 1px solid #fafafa;
+  text-decoration: none;
+}
+
+.navbar-nav li {
+  padding-left: 20px;
 }
 
 .navbar-toggler-icon {
-    border-color: #fafafa;
-    width: 35px;
-    height: 3px;
-    background-color: #fafafa;
-    margin: 6px 20px 6px 0;
+  border-color: #fafafa;
+  width: 35px;
+  height: 3px;
+  background-color: #fafafa;
 }
 
 .navbar-toggler {
-    padding: 0;
+  padding: 0;
 }
 
 /* ---------------------------------------------Hero Image Section ----------------------------------*/
 
+/*  Code for hero image and animation borrowed from the Love Running project then edite to fit my website */
 .hero-container {
-    height: 750px;
-    background: url('../images/meditate.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    color: #fafafa;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  height: 750px;
+  background: url("../images/meditate.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fafafa;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
-.hero-outer{
-    height:750px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.hero-outer {
+  height: 750px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-
 
 .jumbotron {
-    text-align: center;
-    background:transparent;
-    text-shadow: 5px 3px 10px #000;
+  text-align: center;
+  background: transparent;
+  text-shadow: 5px 3px 10px #000;
 }
 
 .lead {
-    font-size: xxx-large;
-    font-weight: 500;
+  font-size: xxx-large;
+  font-weight: 500;
 }
-  
+/* ---------------------------------------------About section------------------------------------*/
 
-.about {
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    color:  #88275d;
-    text-align: center;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
-    padding-top: 10px;
-    margin:0 auto;
-}
-
-.welcome-container {
-    height: 380px;
-    border: 1px #88275d solid;
-    margin-bottom: 70px; 
-    margin-top: 20px;
-    padding-right: 0;
-    color: #fafafa;
-    
- }
-
-/*.hr-rule {
-    border: 3px solid #88275d;
-    width: 700px;
-}*/
- .about h3 {
-     text-align: center;
-     margin-top: 30px;
-     color: #88275d;
- }
-
-
-.welcome-text{
-    height: 350px;
-    width: 100%;
-    text-align: center;
-    color: #fafafa;
-    background-color: #88275d;
-    padding: 50px 50px 30px 30px;
-    margin-left: 100px;
-   /* margin-bottom: 10px;*/
-    
-}
-
-.welcome-text h5 a {
-    color: #fafafa;
-}
-
-.welcome-text h5 a:hover {
+.about-container .about {
+  height: auto;
+  justify-content: center;
+  align-items: center;
   color: #88275d;
-  opacity: 0.2;
-}
-.btn-about{
-    margin-top: 10px;
-}
-
-.welcome-img {
-  background-image: url("../images/face.jpg");
-  height: 350px;
-  width: 330px;
-  margin-left:151px;
-
-}
-
-.quote-img {
-background-image: url("../images/yogi.jpg");
-background-repeat: no repeat, no-repeat;
-height: 290px;
-width: 229px;
-margin-left: 120px;
-margin-top: 0px;
-}
-.quote-text {
   text-align: center;
-  padding-top: 60px;
-  margin-left: 180px;
-  color: #88275d;
-  font-weight: 600;
+  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+  padding-top: 10px;
 }
-  
 
-/*----------------------------------Footer--------------------*/
+/* ---------------------------------------------Owner info and classes section--------------------*/
+
+.owner-container {
+}
+
+.owner-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 8px;
+}
+
+.owner-text {
+  text-align: justify;
+  padding-right: 50px;
+  color: #88275d;
+}
+
+.name-heading {
+  color: #88275d;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.teacher-training,
+.teaching {
+  color: #88275d;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.teacher-training h5,
+.teaching h5 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.teacher-training li,
+.teaching li {
+  font-size: larger;
+}
+
+/* ----------------------------------------------------Footer ---------------------------------*/
+
+/* Code for creating icons borrowed from Love Running challenge then edited  */
+footer {
+  height: auto;
+  width: 100%;
+  color: #fafafa;
+  background-color: #88275d;
+}
 .social-media {
-    text-align: center;
+  text-align: center;
 }
 
 .social-media li {
-    display:inline-block;
+  display: inline-block;
 }
 
 .social-media i {
-    font-size: 150%;
-    padding: 20%;
-    color:  #fafafa;
-    margin-right: 50px;
+  font-size: 150%;
+  padding: 20%;
+  color: #fafafa;
+  margin-right: 50px;
 }
 
 .social-media li a:hover {
   opacity: 0.2;
-  
-}
-
-footer {
-    height: 250px;
-	margin: 0;
-    color: #fafafa;
-    background-color: #88275d;
 }
 
 .follow {
-    text-align: center;
-    margin-top: 60px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .contact {
-   text-align: center;
-   margin-top: 60px;
-   font-size: small;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: small;
 }
 .contact a {
-    color: #fafafa;
+  color: #fafafa;
 }
 .contact a:hover {
   opacity: 0.2;
   text-decoration: underline;
 }
 
+/* ----------------------------------------------------Modal -------------------------------*/
 
-/*--------------------------------------Contact form----------------*/
-
-.form-section {
-    height: 650px;
-    background-image: url("../images/beach.jpg");
-    clear: left;
-    background-size: cover;
-    background-position: center;
-   }
-
-.signup-form {
-  margin-top:50px;
-  background-color: rgba(60, 60, 60, 0.6);
-  position: relative;
-  padding: 30px ;
+.form-style {
+    background-color: #fafafa;
 }
 
-.form-section h3, h4 {
+.form-Modalcontrol {
+  width: 80%;
+  height: 35px;
+  border: 1px solid #7777;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.modal-header {
+  background-color: #88275d;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.btn-form-modal {
+  margin-left: 70px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  color: #fafafa;
+  background-color: #88275d;
+  width: 150px;
+}
+
+.close {
     color: #fafafa;
-    margin-bottom: 20px;
-    text-align: center;
+}
+/* ----------------------------------------------------Contact page -------------------------------*/
+
+/* code borrowed from the Love Running challenge and also from the Resume Project and then edited to fit the design of my website */
+
+.form-section {
+  height: auto;
+  background-image: url("../images/beach.jpg");
+  clear: left;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: hue;
+}
+
+.signup-form {
+  margin-top: 50px;
+  background-color: rgba(60, 60, 60, 0.6);
+  position: relative;
+  padding: 30px;
+}
+
+.form-section h3,
+h4 {
+  color: #fafafa;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .form-control {
-    background: transparent;
-    width: 100%;
-    height: 35px;
-    border: 1px solid #fafafa;
-    border-radius: 5px;
+  background: transparent;
+  width: 100%;
+  height: 35px;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
 }
 
 .btn-form {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    color: #fafafa;
-    background-color: #88275d;
-    width: 100px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #fafafa;
+  background-color: #88275d;
+  width: 100px;
 }
+
 .label-color {
-    color: #fafafa
+  color: #fafafa;
 }
 
-  
-/*----------------------------------------------Media Queries-----------------------*/
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 60%;
-    }
+/*----------------------------------------------Media Queries----------------------------*/
 
+/* Media query for the form on the contact page borrowed from the Love Running challenge*/
 
+@media (min-width: 992px) {
+  .center-form {
+    padding-top: 10px;
+    min-height: 240px;
+    max-width: 50%;
+    margin-bottom: 50px;
+    margin-left: 60px;
+  }
 }
 
-/*----------------------------------------------Class times-----------------------*/
+@media screen and (max-width: 780px) {
+  #photo {
+    column-count: 2;
+  }
+}
+
+/*----------------------------------------------Class times-----------------------------*/
+
+/* Inspiration and the bits of code for class times borrowed from Love Running challenge then edited with bootstrap grid options */
+
 .class-heading {
-    height: 100px;
-    background-color: #88275d;
-    color: #fafafa; 
-    text-align: center;
-    padding-top: 20px;
-}
-#class-times{
-    background-image: url('../images/women.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
+  height: 60px;
+  background-color: #88275d;
+  color: #fafafa;
+  text-align: center;
+  padding-top: 10px;
 }
 
-#class-times div {
-    color: #fafafa;
-    background-color: rgba(0,0,0, .6);
-    width: 24%;
-    height: 300px;
-    float: left;
-    padding: 30px 0px 0px 10px;
-    text-align: center;
-    margin: 7px;
+.class-container {
+  background-image: url("../images/women.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
 }
 
-#class-times h3 {
-    color: #fafafa;
+.class-times {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #fafafa;
 }
 
-#class-times a {
-  color:  #fafafa;
+.class-times h3 {
+  color: #fafafa;
+  text-align: center;
+}
+
+.class-times a {
+  color: #fafafa;
   background-color: transparent;
   text-decoration: none;
-} 
+}
 
-#class-times a:hover {
+.class-times a:hover {
   color: #88275d;
   background-color: transparent;
   text-decoration: underline;
 }
+.btn-class {
+  margin-left: 120px;
+  margin-bottom: 10px;
+  color: #fafafa;
+  background-color: #88275d;
+  width: 100px;
+  text-align: center;
+}
 
+/*-------------------------------------Gallery Page-----------------------------------------*/
 
- 
+/*---Code taken from Love Running challenge---*/
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
+}
+
+#photo img {
+  width: 100%;
+}
+
+/*-------------------------------------Yoga Page---------------------------------------------*/
+
+.yoga-heading {
+  color: #88275d;
+  text-align: justify;
+  /*margin-top: 50px;
+    padding-bottom: 20px;*/
+}
+
+.quote-img {
+  background-image: url("../images/yogi.jpg");
+  background-repeat: no repeat, no-repeat;
+  height: 290px;
+  width: 229px;
+  margin-left: 120px;
+  margin-top: 0px;
+}
+.quote-text {
+  text-align: center;
+  padding-top: 60px;
+  margin-left: 180px;
+  color: #88275d;
+}

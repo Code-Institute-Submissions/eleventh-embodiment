@@ -34,12 +34,12 @@ Idea was to create a website that will be easy to navigate so that user can quic
 
 ## Wireframes 
 
-[Home Page](https://github.com/TanYa-Go/eleventh-embodiment/tree/master/assets/wireframes)
-[About Page]
-[Yoga Page]
-[Healing Page]
-[Retreats Page]
-[Contact Page]
+[Home Page](https://github.com/TanYa-Go/eleventh-embodiment/tree/master/assets/wireframes)\
+[About Page](https://github.com/TanYa-Go/eleventh-embodiment/blob/master/assets/wireframes/about.pdf)\
+[Yoga Page]\
+[Healing Page]\
+[Retreats Page]\
+[Contact Page](https://github.com/TanYa-Go/eleventh-embodiment/blob/master/assets/wireframes/contact.pdf)
 
 ## Features
 

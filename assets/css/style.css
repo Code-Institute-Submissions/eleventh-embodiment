@@ -2,28 +2,49 @@
 
 body {
   font-family: Lato, sans-serif;
+  /* position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;*/
 }
 
 /* ----------------------------------------------------Navbar ---------------------------------*/
 
 .navbar-style {
-  background-color: #88275d;
   padding-left: 30px;
-  color: #fafafa;
+  color: #c4881be3;
 }
 
+.navbar-brand {
+  color: #c4881be3;
+  font-size: xx-large;
+  margin-left: 10px;
+}
+
+
+
+.navbar-brand-text:hover {
+  color: slategray;
+}
 .menuitem a {
   font-size: x-large;
   padding-left: 20px;
-  color: #fafafa;
+  color: #c4881be3;
+}
+/*-------Grow hover animation from website travis.media, link in README.md--*/
+.grow a {
+  transition: all 0.2s ease-in-out;
 }
 
-.menuitem a:hover {
-  border-bottom: 1px solid #fafafa;
+.grow a:hover {
+  transform: scale(1.1);
 }
+/*---------------------------------------------------------------*/
 
 .active {
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 3px solid #c4881be3;
   text-decoration: none;
 }
 
@@ -32,22 +53,25 @@ body {
 }
 
 .navbar-toggler-icon {
-  border-color: #fafafa;
+  border-color: #c4881be3;
   width: 35px;
   height: 3px;
-  background-color: #fafafa;
+  background-color: #c4881be3;
 }
 
 .navbar-toggler {
   padding: 0;
 }
 
+
 /* ---------------------------------------------Hero Image Section ----------------------------------*/
 
-/*  Code for hero image and animation borrowed from the Love Running project then edite to fit my website */
+/* Code for hero image and animation borrowed from the Love Running project then edite to fit my website */
+
 .hero-container {
-  height: 750px;
-  background: url("../images/meditate.jpg") no-repeat center center;
+  max-width: 100%;
+  height: 850px;
+  background: url("../images/women.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -57,6 +81,7 @@ body {
   justify-content: center;
   position: relative;
   color: #fafafa;
+
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -72,7 +97,7 @@ body {
 }
 
 .hero-outer {
-  height: 750px;
+  height: 650px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -80,53 +105,72 @@ body {
 
 .jumbotron {
   text-align: center;
-  background: transparent;
-  text-shadow: 5px 3px 10px #000;
+  background: hsla(39, 52%, 54%, 0.89);
+  color: #fafafa;
+  text-shadow: 5px 3px 10px slategray;
+border-radius: 10%;
 }
 
 .lead {
   font-size: xxx-large;
   font-weight: 500;
+  
 }
 /* ---------------------------------------------About section------------------------------------*/
 
+.about-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .about-container .about {
   height: auto;
   justify-content: center;
   align-items: center;
-  color: #88275d;
+  color: hsla(38, 38%, 25%, 0.89);
   text-align: center;
   text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
   padding-top: 10px;
 }
 
-/* ---------------------------------------------Owner info and classes section--------------------*/
+/* ---------------------------------------------Owner story-------------------*/
 
 .owner-container {
+    border: 3px solid #c4881be3;
 }
 
+.title-text {
+    text-align: center;
+    color: #c4881be3;
+    padding-top: 25px;
+}
 .owner-img {
   max-width: 100%;
   height: auto;
   margin-top: 8px;
+  margin-bottom: 30px;
 }
 
 .owner-text {
   text-align: justify;
   padding-right: 50px;
-  color: #88275d;
+  color: hsla(38, 38%, 25%, 0.89);
 }
 
 .name-heading {
-  color: #88275d;
+  color: #c4881be3;
   text-align: center;
   margin-top: 50px;
   padding-bottom: 20px;
 }
 
+.experience {
+    border: 3px solid #c4881be3;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
 .teacher-training,
 .teaching {
-  color: #88275d;
+  color: hsla(38, 38%, 25%, 0.89);
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -142,6 +186,52 @@ body {
   font-size: larger;
 }
 
+
+/* ---------------------------------------------------Lets connect ---------------------------------*/
+
+.connect-form {
+  margin-top: 50px;
+  border: 2px solid #c4881be3;
+  position: relative;
+  padding: 30px;
+}
+
+/*.about-form h4{
+  color: hsla(38, 38%, 25%, 0.89);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.label-color {
+    color: hsla(38, 38%, 25%, 0.89);
+}
+
+.form-control {
+  width: 100%;
+  height: 35px;
+  border: hsla(38, 38%, 25%, 0.89);
+  color:hsla(38, 38%, 25%, 0.89);
+  border-radius: 5px;
+}
+
+.btn-form {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 100px;
+}*/
+/*--------------------------------------------Photos section-----------------------------------*/
+/*.photos {
+    border: 3px solid #c4881be3;
+}*/
+
+.photos img {
+    max-width: 100%;
+    height:auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
 /* ----------------------------------------------------Footer ---------------------------------*/
 
 /* Code for creating icons borrowed from Love Running challenge then edited  */
@@ -149,7 +239,7 @@ footer {
   height: auto;
   width: 100%;
   color: #fafafa;
-  background-color: #88275d;
+  background-color: #c4881be3;
 }
 .social-media {
   text-align: center;
@@ -167,7 +257,7 @@ footer {
 }
 
 .social-media li a:hover {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .follow {
@@ -192,7 +282,7 @@ footer {
 /* ----------------------------------------------------Modal -------------------------------*/
 
 .form-style {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .form-Modalcontrol {
@@ -208,7 +298,7 @@ footer {
 }
 
 .modal-header {
-  background-color: #88275d;
+  background-color: #c4881be3;
   color: #fafafa;
   text-align: center;
   padding-left: 70px;
@@ -219,12 +309,12 @@ footer {
   margin-top: 15px;
   margin-bottom: 35px;
   color: #fafafa;
-  background-color: #88275d;
+  background-color: #c4881be3;
   width: 150px;
 }
 
 .close {
-    color: #fafafa;
+  color: #fafafa;
 }
 /* ----------------------------------------------------Contact page -------------------------------*/
 
@@ -265,7 +355,7 @@ h4 {
   margin-top: 15px;
   margin-bottom: 5px;
   color: #fafafa;
-  background-color: #88275d;
+  background-color: #c4881be3;
   width: 100px;
 }
 
@@ -298,8 +388,8 @@ h4 {
 /* Inspiration and the bits of code for class times borrowed from Love Running challenge then edited with bootstrap grid options */
 
 .class-heading {
-  height: 60px;
-  background-color: #88275d;
+  height: 50px;
+  background-color: #c4881be3;
   color: #fafafa;
   text-align: center;
   padding-top: 10px;
@@ -312,6 +402,7 @@ h4 {
   background-position: center;
   width: 100%;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .class-times {
@@ -331,7 +422,7 @@ h4 {
 }
 
 .class-times a:hover {
-  color: #88275d;
+  color: #c4881be3;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -339,7 +430,7 @@ h4 {
   margin-left: 120px;
   margin-bottom: 10px;
   color: #fafafa;
-  background-color: #88275d;
+  background-color: #c4881be3;
   width: 100px;
   text-align: center;
 }
@@ -359,7 +450,7 @@ h4 {
   width: 100%;
 }
 
-/*-------------------------------------Yoga Page---------------------------------------------*/
+/*-------------------------------------Yoga Page / What i do?---------------------------------------------*/
 
 .yoga-heading {
   color: #88275d;
@@ -382,3 +473,26 @@ h4 {
   margin-left: 180px;
   color: #88275d;
 }
+
+.heading-text {
+  color: #c4881be3;
+  text-align: center;
+  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+  font-style: italic;
+}
+/*--------------------------Home page book section-------------------------------------------------------------------*/
+.btn-book {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.online-session {
+    border: 2px solid #c4881be3;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+    

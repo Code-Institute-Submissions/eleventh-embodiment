@@ -24,7 +24,6 @@ body {
 }
 .menuitem a {
   font-size: x-large;
-  /*padding-left: 150px;*/
   color: #c4881be3;
   text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
 }
@@ -69,8 +68,8 @@ body {
 
 .hero-container {
   max-width: 100%;
-  height: 950px;
-  background: url("../images/focus.JPG") no-repeat center center;
+  height: 750px;
+  background: url("../images/focus.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -96,7 +95,7 @@ body {
 }
 
 .hero-outer {
-  height: 950px;
+  height: 750px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -113,7 +112,7 @@ body {
   height: auto;
   justify-content: center;
   align-items: center;
-  color: hsla(38, 38%, 25%, 0.89);
+  color: #c4881be3;
   text-align: center;
   text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
   padding-top: 10px;
@@ -123,7 +122,7 @@ body {
 
 .owner-container {
     border: 3px solid #c4881be3;
-    
+    border-radius: 5%;
 }
 
 .title-text {
@@ -153,6 +152,7 @@ body {
 
 .experience {
     border: 3px solid #c4881be3;
+    border-radius: 5%;
     margin-top: 50px;
     margin-bottom: 30px
 }
@@ -179,39 +179,9 @@ color: hsla(38, 38%, 25%, 0.89);
 text-align: center;
 padding-top: 20px;
 }
-/* ---------------------------------------------------Lets connect ---------------------------------*/
+/* ---------------------------------------------------Newsletter---------------------------------*/
 
-.connect-form {
-  margin-top: 50px;
-  border: 2px solid #c4881be3;
-  position: relative;
-  padding: 30px;
-}
 
-/*.about-form h4{
-  color: hsla(38, 38%, 25%, 0.89);
-  margin-bottom: 20px;
-  text-align: center;
-}
-.label-color {
-    color: hsla(38, 38%, 25%, 0.89);
-}
-
-.form-control {
-  width: 100%;
-  height: 35px;
-  border: hsla(38, 38%, 25%, 0.89);
-  color:hsla(38, 38%, 25%, 0.89);
-  border-radius: 5px;
-}
-
-.btn-form {
-  margin-top: 15px;
-  margin-bottom: 5px;
-  color: #fafafa;
-  background-color: #c4881be3;
-  width: 100px;
-}*/
 /*--------------------------------------------Photos section on home page-----------------------------------*/
 
 
@@ -320,7 +290,7 @@ footer {
 
 .form-section {
   height: auto;
-  background-image: url("../images/mountain.png");
+  background-image: url("../images/mountain.jpg");
   clear: left;
   background-size: cover;
   background-position: center;
@@ -365,7 +335,7 @@ h4 {
 
 /* Media query for the form on the contact page borrowed from the Love Running challenge*/
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .center-form {
     padding-top: 10px;
     min-height: 240px;
@@ -375,14 +345,10 @@ h4 {
   }
 }
 
-@media (min-width: 992px) {
-    .ptdescription-text {
-    text-align: justify;
-    font-size: larger;
-    margin: 20px 0px 20px 50px;
-    
+@media screen and (max-width: 992px) {
+   
+
     }
-    
 }
 /*----------------------------------------------Class times-----------------------------*/
 
@@ -445,7 +411,7 @@ h4 {
 
 
 
-/*-------------------------------------Yoga Page / What i do?---------------------------------------------*/
+/*------------------------------------- What I do Page---------------------------------------------*/
 
 .yoga-heading {
   color: #c4881be3;
@@ -456,12 +422,66 @@ h4 {
     padding-bottom: 20px;*/
 }
 
+@media screen and (max-width:768px) {
+    .yoga-heading {
+    color: #c4881be3;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+  /*margin-top: 50px;
+    padding-bottom: 20px;*/
+}
 
+}
+
+.methods-text {
+  color: #c4881be3;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 100px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width:768px) {
+.methods-text {
+  color: #c4881be3;
+  text-align: center;
+  font-size: larger;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+}
+
+.btn-advice {
+    margin-top: 50px;
+    margin-left: 200px;
+    color: #fafafa;
+    background-color: #c4881be3;
+    width: 300px;
+}
+
+@media screen and (max-width:768px) {
+.btn-advice {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fafafa;
+    background-color: #c4881be3;
+    width: 300px;
+}
+}
 
 .description-text {
     text-align: justify;
     font-size: larger;
     margin: 50px 0px 50px 150px;
+}
+
+@media screen and (max-width:768px) {
+    .description-text {
+    text-align: justify;
+    font-size: large;
+    margin: 0px auto;
+}
 }
 .quote-text {
   text-align: center;
@@ -471,8 +491,17 @@ h4 {
   color:#c4881be3;
   margin-top: 50px;
  
-  
 }
+@media screen and (max-width:768px) {
+    .quote-text {
+  text-align: center;
+  font-size: large;
+  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+  padding-top: 10px;
+  color:#c4881be3;
+    }
+}
+
 
 .heading-text {
   color: #fafafa;
@@ -486,16 +515,39 @@ h4 {
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    margin-left: 50px;
+
+}
+
+@media screen and (max-width:768px) {
+.kundalini-img {
+    display: flex;
+    justify-content: center;
+    margin:0px auto;
+}
 }
 
 .yin-img {
 margin-left: 150px;
 }
 
+@media screen and (max-width:768px) {
+    .yin-img {
+margin:0px auto;
+}
+    .yin-second-img {
+        margin-top: 10px;
+ }
+}
 .reiki-img {
  margin-top: 50px;
 }
 
+@media screen and (max-width:768px) {
+    .reiki-img {
+ margin-top: 10px;
+}
+}
 .breathing-img {
     margin-bottom: 50px;
 }
@@ -503,6 +555,17 @@ margin-left: 150px;
 .shaman-img {
     margin-left: 20px;
 }
+
+@media screen and (max-width:768px) {
+    .shaman-img {
+    margin:0px auto;
+}
+.shaman-second-img {
+    margin-top: 10px;
+}
+}
+
+
 /*--------------------------Home page book section-------------------------------------------------------------------*/
 .btn-book {
   display: flex;
@@ -513,14 +576,18 @@ margin-left: 150px;
   margin: 0 auto;
 }
 
-/*.online-session {
-    border: 2px solid #c4881be3;*/
-    margin-bottom: 50px;
    
-}
+/*--------------------------Events Page -------------------------------------------------------------------*/
 
-   
-/*--------------------------Retreats page -------------------------------------------------------------------*/
+.events-title {
+   color: #c4881be3;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: xx-large;
+  margin:0px auto;
+  padding-top: 50px;
+
+}
 
 .retreat-title {
     color:  hsla(38, 38%, 25%, 0.89);

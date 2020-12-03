@@ -376,7 +376,7 @@ h4 {
 }
 
 @media (min-width: 992px) {
-    .description-text {
+    .ptdescription-text {
     text-align: justify;
     font-size: larger;
     margin: 20px 0px 20px 50px;

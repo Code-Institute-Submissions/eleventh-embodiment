@@ -5,7 +5,7 @@ body {
   
 }
 
-/* ----------------------------------------------------Navbar ---------------------------------*/
+/* ---------------------------------------------Navbar ---------------------------------*/
 
 .navbar-style {
   padding-left: 30px;
@@ -117,7 +117,7 @@ body {
   padding-top: 10px;
 }
 
-/* ---------------------------------------------Owner story-------------------*/
+/* ---------------------------------------------My story-----------------------------------------------------*/
 
 .title-text {
   text-align: center;
@@ -193,6 +193,17 @@ body {
     text-align: center;
 }
 
+/*--------------------------Home page See Events section-------------------------------------------------------------------*/
+.btn-book {
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+  margin: 0 auto;
+}
+
+
 /* ---------------------------------------------------Newsletter---------------------------------*/
 
 
@@ -255,6 +266,8 @@ footer {
 
 
 /* ----------------------------------------------------Modal -------------------------------*/
+
+/* Code borrowed from Bootstrap and adapted to my website */
 
 .form-style {
   background-color: #fafafa;
@@ -339,7 +352,7 @@ footer {
   color: #fafafa;
 }
 
-/*-------------------------------------Gallery Page-----------------------------------------*/
+/*-------------------------------------Gallery Page---------------------------------------------------*/
 
 .photos img {
     max-width: 100%;
@@ -350,7 +363,7 @@ footer {
 
 
 
-/*------------------------------------- What I do Page---------------------------------------------*/
+/*------------------------------------- What I do Page-----------------------------------------------*/
 
 .yoga-heading {
   color: #c4881be3;
@@ -467,18 +480,6 @@ footer {
     margin-top: 10px;
 }
 
-
-
-/*--------------------------Home page See Events section-------------------------------------------------------------------*/
-.btn-book {
-  display: flex;
-  justify-content: center;
-  color: #fafafa;
-  background-color: #c4881be3;
-  width: 200px;
-  margin: 0 auto;
-}
-
    
 /*--------------------------Events Page -------------------------------------------------------------------*/
 
@@ -564,8 +565,7 @@ footer {
       display: inline;
       margin-left: 75px;
       padding-bottom:50px;
-      text-decoration: italic;
-  }
+}
 
   .quote-text {
     margin-top: -50px;

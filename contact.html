@@ -3,46 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Eleventh Embodiment</title>
     <link rel="icon" type="image/png" href="assets/images/favicon-leaf.png" />
   </head>
   <body>
     <header>
-      <!---------Navigation Bar ------------->
+       <!-- ==================== Navigation Bar ================================================================== -->
+
       <nav class="navbar navbar-expand-lg navbar-style navbar-light">
 			<a class="navbar-brand" href="index.html">
-				<img
-            src="assets/images/logo-leaf.png"
-            width="55"
-            height="50"
-            class="d-inline-block"
-            alt="logo"
-            loading="lazy"
-        /></a>
-
-				<button
-          class="navbar-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarIcon"
-          aria-controls="navbarIcon"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-          
-        </button>
+				<img src="assets/images/logo-leaf.png" width="55" height="50" class="d-inline-block" alt="logo" loading="lazy"/></a>
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarIcon" aria-controls="navbarIcon"
+                  aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
 				<div class="collapse navbar-collapse" id="navbarIcon">
 					<ul class="navbar-nav ml-auto menucontainer">
 						<li class="nav-item menuitem  grow">
@@ -63,8 +39,10 @@
 					</ul>
 				</div>
 		</nav>
-      <!--------------------------------------------------------------------------------->
+       <!-- ==================== End Navigation Bar ================================================================== -->
     </header>
+
+      <!-- ==================== Contact Form ================================================================== -->
 
     <section class="container-fluid form-section">
       <div class="row bg-color-contact">
@@ -73,30 +51,12 @@
             <form class="signup-form">
               <h3>Have a question or simply want to connect?</h3>
               <h4>Please fill in the form below</h4>
-              <label for="name" class="label-color">Full Name</label>
-              <input
-                type="text"
-                name="name"
-                id="fullname"
-                class="form-control"
-                required
-              />
-              <label for="email" class="label-color"> Email Address </label>
-              <input
-                type="email"
-                name="email"
-                id="emailaddress"
-                class="form-control"
-                required
-              />
-              <label for="name" class="label-color"> Message</label>
-              <textarea
-                rows="5"
-                name="message"
-                id="message"
-                class="form-control"
-                required
-              ></textarea>
+              <label for="fullname" class="label-color">Full Name</label>
+              <input type="text" name="name" id="fullname" class="form-control" required />
+              <label for="emailaddress" class="label-color"> Email Address </label>
+              <input type="email" name="email" id="emailaddress" class="form-control" required />
+              <label for="message" class="label-color"> Message</label>
+              <textarea rows="5" name="message" id="message" class="form-control" required ></textarea>
               <div class="form-row text-center">
                 <div class="col">
                   <button type="submit" class="btn btn-secondary btn-form">
@@ -109,43 +69,40 @@
         </div>
       </div>
     </section>
+     <!-- ==================== End Contact Form ================================================================== -->
+
+     <!-- ==================== Footer  ================================================================== -->
 
     <footer class="container-fluid">
       <div class="row">
         <div class="col-12 col-md-6 contact-heading">
           <h4>Contact me:</h4>
-          <h5>
-            <i class="fa fa-envelope"></i>
-            <a href="contact.html">harpreet@elem.com</a>
-          </h5>
-          <h5><i class="fa fa-phone"></i> +353 (0)85 833 5702</h5>
-          <h5>
-            <i class="fa fa-instagram"></i
-            ><a href="instagram.com"> @eleventh_embodiment</a>
-          </h5>
+            <h5><i class="fa fa-envelope"></i><a href="contact.html">harpreet@elem.com</a>
+            </h5>
+            <h5><i class="fa fa-phone"></i> +353 (0)85 833 5702
+            </h5>
+            <h5><i class="fa fa-instagram"></i><a href="instagram.com"> @eleventh_embodiment</a>
+            </h5>
         </div>
         <div class="col-12 col-md-6 follow-heading">
           <h4>Follow Me:</h4>
           <ul class="social-media">
             <li>
-              <a href="https://www.facebook.com" target="_blank"
-                ><i class="fa fa-facebook"></i
-              ></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-              <a href="https://www.youtube.com" target="_blank"
-                ><i class="fa fa-youtube"></i
-              ></a>
+              <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com" target="_blank"
-                ><i class="fa fa-instagram"></i
-              ></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </footer>
+     <!-- ==================== End Footer ================================================================== -->
+    
+     <!-- ==================== Scripts ================================================================== -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -161,6 +118,6 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
-    
+     <!-- ==================== End Scripts ================================================================== -->
   </body>
 </html>

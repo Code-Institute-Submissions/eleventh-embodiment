@@ -3,85 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Eleventh Embodiment</title>
     <link rel="icon" type="image/png" href="assets/images/favicon-leaf.png" />
   </head>
-
   <body>
     <header>
-      <!---------Navigation Bar---------------------------------------------------------------------->
-      <!----Taken from Bootstrap and edited to fit the look of the page --->
-
+      <!-- ==================== Navigation Bar ======================================================================= -->
       <nav class="navbar navbar-expand-lg navbar-style navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="assets/images/logo-leaf.png"
-            width="55"
-            height="50"
-            class="d-inline-block"
-            alt="logo"
-            loading="lazy"
-        /></a>
-
-        <button
-          class="navbar-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarIcon"
-          aria-controls="navbarIcon"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarIcon">
-          <ul class="navbar-nav ml-auto menucontainer">
-            <li class="nav-item menuitem active grow">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item menuitem grow">
-              <a class="nav-link" href="what-i-do.html"
-                >What I Do<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item menuitem grow">
-              <a class="nav-link" href="events.html"
-                >Events<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item menuitem grow">
-              <a class="nav-link" href="gallery.html"
-                >Gallery<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item menuitem grow">
-              <a class="nav-link" href="contact.html"
-                >Contact<span class="sr-only">(current)</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!--- End Navigation Bar ------------------------------------------------------------------------>
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/images/logo-leaf.png" width="55" height="50" class="d-inline-block" alt="logo" loading="lazy"/></a>
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarIcon" aria-controls="navbarIcon"
+                  aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+				<div class="collapse navbar-collapse" id="navbarIcon">
+					<ul class="navbar-nav ml-auto menucontainer">
+						<li class="nav-item menuitem active grow">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menuitem grow">
+							<a class="nav-link" href="what-i-do.html">What I Do<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menuitem grow">
+							<a class="nav-link" href="events.html">Events<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menuitem grow">
+							<a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item menuitem grow">
+							<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+		</nav>
+     <!-- ==================== End Navigation Bar ======================================================================= -->
     </header>
-
-    <!-- Code for hero image and animation borrowed from the Love Running project ------>
+    <!-- Code for hero image and animation borrowed from the Love Running project -->
     <div class="hero-outer">
-      <section class="container-fluid hero-container"></section>
+      <div class="container-fluid hero-container"></div>
     </div>
-
     <div class="container about-container">
       <section class="row about">
         <div class="col-12">
@@ -97,17 +59,21 @@
         </div>
       </section>
     </div>
+
+
 <hr class="hr-large">
+
+<!-- ========================== My Story and Experience =================================================== -->
     <section class="container owner-container">
+       <div class="row">
+         <div class="col-12">
+           <h3 class="title-text">My Story<br /><br /></h3>
+         </div>
+       </div>
       <div class="row">
-        <div class="col-12">
-          <h3 class="title-text">My Story<br /><br /></h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-5 owner-img">
-          <img class="img-fluid" src="assets/images/namaste1.jpg" alt="woman in red dress meditating" />
-        </div>
+         <div class="col-12 col-md-5 owner-img">
+           <img class="img-fluid" src="assets/images/namaste1.jpg" alt="woman in red dress meditating" />
+         </div>
 
         <div class="col-12 col-md-7 owner-text">
           <h5>
@@ -175,34 +141,33 @@
         </div>
       </div>
     </section>
+    <!-- =============== End My Story and Experience ============================================================== -->
+
 <hr class="hr-large">
+
+   <!-- ================= Methods I Use =========================================================================== -->
     <h3 class="title-text">Methods I use in my practice</h3>
 
     <div class="row kundalini">
-     <div class="col-12 col-md-2 yoga-img">
-            <img src="assets/images/kundalini.jpg" height="250" width="200" alt="woman practicing yoga">
-        </div>
-    
-        <div class="col-12 col-md-8 yoga-text">
+       <div class="col-12 col-md-2 yoga-img">
+           <img src="assets/images/kundalini.jpg" height="250" width="200" alt="woman practicing yoga">
+       </div>
+       <div class="col-12 col-md-8 yoga-text">
             <h5>Kundalini Yoga</h5>
-                <p>The ancient yoga practice focuses on breath and asana (postures) along with chanting, meditation, and singing.
-                   Practice to increase your self-awareness by silencing your mind and unblocking your chakras so that your vital energy
-                   can flow freely. Some of the most popular health benefits of Kundalini include a faster metabolism, better mood, and 
-                   lowered stress levels.<br/>
-                   
-                </p>
-                <!---Code for button borrowed from this stack overflow post https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link#:~:text=The%20plain%20HTML%20way%20is,URL%20in%20the%20action%20attribute.&text=If%20necessary%2C%20set%20CSS%20display,type%3D%22submit%22%3E%20.--->
+                 <p>The ancient yoga practice focuses on breath and asana (postures) along with chanting, meditation, and singing.
+                    Practice to increase your self-awareness by silencing your mind and unblocking your chakras so that your vital energy
+                    can flow freely. Some of the most popular health benefits of Kundalini include a faster metabolism, better mood, and 
+                    lowered stress levels.<br/>
+                 </p>
+                <!-- Code for button borrowed from stack overflow - Link in README.md file -->
                 <a class="btn yoga-btn" href="what-i-do.html">Learn More</a>
-                
-
         </div>
     </div>  
 
-<div class="row">
-     <div class="col-12 col-md-2 yoga-img">
-            <img src="assets/images/yin.jpg" height="250" width="200" alt="woman practicing yoga">
+    <div class="row">
+        <div class="col-12 col-md-2 yoga-img">
+           <img src="assets/images/yin.jpg" height="250" width="200" alt="woman practicing yoga">
         </div>
-    
         <div class="col-12 col-md-8 yoga-text">
             <h5>Yin Yoga</h5>
                 <p>
@@ -213,128 +178,84 @@
                 <a class="btn yoga-btn" href="what-i-do.html">Learn More</a>
         </div>
     </div>  
-
+<!-- ================== End Methods I Use ======================================================================== -->
    
 <hr class="hr-large">
+
+
     <section class="container">
-      <div class="row">
-       <!-- <div class="col-12 col-md-6 online-session">
-          <h3 class="book-session-text">Book Online Session</h3>
-          <br />
-          <button
-            type="submit"
-            class="btn btn-secondary btn-book"
-            data-toggle="modal"
-            data-target="#bookClassModal"
-          >
-            Book
-          </button>
-          <br />-->
+        <div class="row">
+             <div class="col-12 col-md-12 online-session">
+               <h3 class="book-session-text">See Upcoming Events</h3>
+               <br />
+               <a class="btn btn-book" href="events.html">See Events</a>
+               <br />
+             </div>
         </div>
-        <div class="col-12 col-md-12 online-session">
-          <h3 class="book-session-text">See Upcoming Events</h3>
-          <br />
-          <a class="btn btn-book" href="events.html">See Events</a>
-          <br />
-        </div>
-     
-</section>
+    </section>
+
+    <!-- ================= Footer =================================================================================== -->
 
     <footer class="container-fluid">
       <div class="row">
         <div class="col-12 col-md-6 contact-heading">
           <h4>Contact me:</h4>
-          <h5>
-            <i class="fa fa-envelope"></i>
-            <a href="contact.html">harpreet@elem.com</a>
-          </h5>
-          <h5><i class="fa fa-phone"></i> +353 (0)85 833 5702</h5>
-          <h5>
-            <i class="fa fa-instagram"></i
-            ><a href="instagram.com"> @eleventh_embodiment</a>
-          </h5>
+            <h5><i class="fa fa-envelope"></i><a href="contact.html">harpreet@elem.com</a>
+            </h5>
+            <h5><i class="fa fa-phone"></i> +353 (0)85 833 5702
+            </h5>
+            <h5><i class="fa fa-instagram"></i><a href="instagram.com"> @eleventh_embodiment</a>
+            </h5>
         </div>
         <div class="col-12 col-md-6 follow-heading">
           <h4>Follow Me:</h4>
           <ul class="social-media">
             <li>
-              <a href="https://www.facebook.com" target="_blank"
-                ><i class="fa fa-facebook"></i
-              ></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-              <a href="https://www.youtube.com" target="_blank"
-                ><i class="fa fa-youtube"></i
-              ></a>
+              <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com" target="_blank"
-                ><i class="fa fa-instagram"></i
-              ></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </footer>
+     <!-- ================ End Footer ============================================================================= -->
+    
 
-    <!--------Modal--------------------------->
-    <!--Code for modal borrowed from Bootstrap and amended to suit the look of the page-->
+    <!-- ========= Modal =========================================================================================== -->
+
+    <!-- Code for modal borrowed from Bootstrap and amended to suit the look of the page -->
 
     <div class="modal" tabindex="-1" role="dialog" id="bookClassModal">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Create Account to Book your Class</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <form class="form-style">
-            <div class="form-group">
-              <label for="exampleInputFullName">Full Name</label><br />
-              <input
-                type="name"
-                class="form-Modalcontrol"
-                id="exampleInputFullName"
-                aria-describedby="nameHelp"
-                required
-              />
+             <div class="form-group">
+                <label for="exampleInputFullName">Full Name</label><br />
+                <input type="text" class="form-Modalcontrol" id="exampleInputFullName" aria-label="nameHelp" required />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label><br />
-              <input
-                type="email"
-                class="form-Modalcontrol"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                required
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >We'll never share your email with anyone else.</small
-              >
+                <label for="exampleInputEmail1">Email address</label><br />
+                <input type="email" class="form-Modalcontrol" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword">Password</label><br />
-              <input
-                type="password"
-                class="form-Modalcontrol"
-                id="exampleInputPassword"
-                required
-              />
+              <input type="password" class="form-Modalcontrol" id="exampleInputPassword" required />
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Repeat Password</label><br />
-              <input
-                type="password"
-                class="form-Modalcontrol"
-                id="exampleInputPassword1"
-                required
-              />
+              <input type="password" class="form-Modalcontrol" id="exampleInputPassword1" required />
             </div>
             <button type="submit" class="btn btn-secondary btn-form-modal">
               Submit
@@ -343,7 +264,9 @@
         </div>
       </div>
     </div>
-    <!--------Modal End----------------------->
+    <!-- =============== Modal End =============================================================================== -->
+
+    <!-- ================ Scripts ================================================================================ -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -359,5 +282,6 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <!-- ================ End Scripts ========================================================================= -->
   </body>
 </html>

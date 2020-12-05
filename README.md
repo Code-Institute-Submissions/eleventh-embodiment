@@ -5,12 +5,12 @@ I have decided to build a website for a friend of mine who is a yoga teacher and
 different healing techniques, and to be able to book yoga or healing sessions, workshop and retreats.
 Website owner's goal is to attract more visitiors to the website wich will result in a bigger community, larger following on social media, and ultimately more people booking her classes, healing seassions or retreats.  
 
-## UX
+# UX
  
 Idea was to create a website that will be easy to navigate and to encourage the user to explore all the pages to learn all about site owner's skills and experience. 
 The site should be simple but elegant and bright wich should be accomplished white, gold and grey colors.
 
-### User Stories
+# User Stories
 
 #### As a first time user,
   As a first time user,
@@ -39,13 +39,13 @@ know which site they are on at all times.\
     Purpose is to fulfill the user story - I want to be able to  navigate through the site easily to find information and services available
 - Home page will contain information about the owner and their experience in the industry\
    Purpose is to fulfill the user story - I want to learn more about the site owner and their skills.
-- At the bottom of the home page user will have the option to book an online class or to view the upcoming events.\
-    Purpose is to fulfill the user story - I want to book online classes and/or retreats
+- At the bottom of the home page user will have the option to view the upcoming events.\
+    Purpose is to fulfill the user story - I want to check if there are any new classes and/or retreats
 - Footer will remain the same across all pages and will contain contact information as well as social media links so user can easily contact or connect with the site owner.\
     Purpose is to fulfill the user stories:\
     I want to find ways to follow the owner on social media platforms and \
     I want to contact the owner to find out more information about their services
-- What I do page will contain details about each of the yoga styles and healing techniques site owner is providing and teaching. 
+- "What I do" page will contain details about each of the yoga styles and healing techniques site owner is providing and teaching. 
    Purpose is to fulfill the user story - I want to learn more about the site owner and their skills.
 - Site will be made responsive using Bootstrap grid and media queries to fulfill the user story\
     I want to be able to see this website clearly on my mobile device
@@ -67,19 +67,20 @@ know which site they are on at all times.\
 [About Page](https://github.com/TanYa-Go/eleventh-embodiment/blob/master/assets/wireframes/about.pdf)\
 [What I Do Page]\
 [Gallery Page](https://github.com/TanYa-Go/eleventh-embodiment/blob/master/assets/wireframes/gallery.pdf)\
-[Events Page]\
+[Events Page](https://github.com/TanYa-Go/eleventh-embodiment/blob/master/assets/wireframes/events.pdf)\
 [Contact Page](https://github.com/TanYa-Go/eleventh-embodiment/blob/master/assets/wireframes/contact.pdf)
 
 ## Features
-- Option to book an online class on home page - "Book" button opens a modal where user can open account and book a class
-- Option to see upcoming events on home page - "Learn more" button leads to a separate Events page where all events are listed
+- 
+- Option to see upcoming events on home page - "See Events" button leads to a separate Events page where all events are listed
+- Option to book an online class on "What I do" page - "Book" button opens a modal where user can open account and book a class
 - Option to contact the site owner through the form located on "Contact" page or links in the footer
 - Video on events page that shows previous retreat, user needs to click to play, it is not set to autoplay
 
  
 ### Features Left to Implement
 - Currently the forms do not send any information, we would like to implement this option in the future
-- Plan is also to implement a payment system where a user can register and pay for a retreat
+- Plan is also to implement a payment system where a user can register and pay for a workshope or a retreat
 
 ## Technologies Used
 
@@ -113,13 +114,38 @@ know which site they are on at all times.\
 
 ## Credits
 
+### Code
+
+#### Code Institute
+- Navbar menu items "active" effect borrowed from Love Running challenge
+- Code for hero image and animation borrowed from the Love Running challenge and adapted to suit my project
+- Code for the form on the contact page is a combination of the forms from Love Running and Resume projects
+- Code for social media icons borrowed from Love Running challenge then adapted to suit my project 
+
+#### Other Sources
+- "Grow hover" effect on navbar menu items borrowed from this post from [Travis Media](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/) 
+- Idea on how to insert a video borrowed from this [W3 Schools](https://www.w3schools.com/html/html5_video.asp) post
+- Idea for making images responsive borrowed from [W3 Schools](https://www.w3schools.com/howto/howto_css_image_responsive.asp) and [Bootstrap](https://bootstrapcreative.com/make-image-responsive-bootstrap-4/#:~:text=In%20Bootstrap%204%20you%20would,than%20the%20image%20pixel%20width.)
+- Code for modal borrowed from [Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/) and adapted to suit the desegn of my website
+- Code for linkable button borrowed from this [Stackoverflow](https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link#:~:text=The%20plain%20HTML%20way%20is,URL%20in%20the%20action%20attribute.&text=If%20necessary%2C%20set%20CSS%20display,type%3D%22submit%22%3E%20) post
 
 ### Content
-- Content was provided by the site owner 
+- All content was provided by the site owner 
 
 ### Media
-- All the images were provided by the site owner Ana Trajko herself, they are her private images
 
+- For idea on how to insert a favicon I used this [YouTube video](https://www.youtube.com/watch?v=kEf1xSwX5D8)
+- Images on home page in the "Methods I use in my practice" section are from Unsplash - <span>Photo by <a href="https://unsplash.com/@sonniehiles?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sonnie Hiles</a> on <a href="https://unsplash.com/s/photos/yoga?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+- The other images are  all from the private collection of the site owner Ana Trajko herself
+- Video on the events page is also provided by the site owner
 
 ### Acknowledgements
+
+I'd like to thank 
+- My mentor Ignatius Ukwuama for guidance and advice
+- Anna and Jim from Code Institute for amazing tutorials on how to prepare the MS1
+- All the CI tutors and Slack students
+- My paretns for minding my son while I work on my project
+- And of course my friend and site owner Ana Trajko for trusting me to build the website and for her ideas and suggestions to make it better
+
 

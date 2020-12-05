@@ -18,15 +18,16 @@ body {
   margin-left: 5px;
 }
 
-
 .navbar-brand-text:hover {
   color: slategray;
 }
+
 .menuitem a {
   font-size: x-large;
   color: #c4881be3;
   text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
 }
+
 /*-------Grow hover animation from website travis.media, link in README.md--*/
 .grow a {
   transition: all 0.2s ease-in-out;
@@ -35,32 +36,31 @@ body {
 .grow a:hover {
   transform: scale(1.1);
 }
+
 /*----------------------------------------------------------------------*/
 
 .active {
   border-bottom: 3px solid #c4881be3;
   text-decoration: none;
- 
 }
 
 .navbar-nav li {
   padding-left: 10px;
 }
 
-/*.navbar-toggler-icon {
-  border-color: #c4881be3;
-  height: 3px;
-  background-color: #c4881be3;
-  margin-right: 1px;
-  margin-bottom: 5px;
-}*/
-
 .navbar-toggler {
   border: 2px solid #c4881be3;
-  color: #c4881be3;
-  
+  margin-top: 80px;
 }
 
+.hr-large {
+  border-top: 1px solid #c4881be3;
+}
+
+.hr-small {
+    border-top: 1px solid #c4881be3;
+    width: 300px;
+}
 
 /* ---------------------------------------------Hero Image Section ----------------------------------*/
 
@@ -79,7 +79,6 @@ body {
   justify-content: center;
   position: relative;
   color: #fafafa;
-
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -102,34 +101,32 @@ body {
 }
 
 
-/* ---------------------------------------------About section------------------------------------*/
+/* ---------------------------------------------Eleventh Embodiment section------------------------------------*/
 
 .about-container {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.about-container .about {
+
+.about {
   height: auto;
   justify-content: center;
   align-items: center;
   color: #c4881be3;
   text-align: center;
-  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
   padding-top: 10px;
 }
 
 /* ---------------------------------------------Owner story-------------------*/
 
-.owner-container {
-    border: 3px solid #c4881be3;
-    border-radius: 5%;
+.title-text {
+  text-align: center;
+  color: #c4881be3;
+  padding-top: 25px;
+  text-transform: uppercase;
+  word-spacing: 5px;
 }
 
-.title-text {
-    text-align: center;
-    color: #c4881be3;
-    padding-top: 25px;
-}
 .owner-img {
   max-width: 100%;
   height: auto;
@@ -151,46 +148,53 @@ body {
 }
 
 .experience {
-    border: 3px solid #c4881be3;
-    border-radius: 5%;
-    margin-top: 50px;
-    margin-bottom: 30px
+  margin-top: 50px;
+  margin-bottom: 30px
 }
-.teacher-training,
-.teaching {
+
+.teacher-training, .teaching {
   color: hsla(38, 38%, 25%, 0.89);
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
-.teacher-training h5,
-.teaching h5 {
+.teacher-training h5, .teaching h5 {
   text-align: center;
   padding-bottom: 20px;
+  font-weight: 600;
+  font-size: x-large;
 }
 
-.teacher-training li,
-.teaching li {
+.teacher-training li, .teaching li {
   font-size: larger;
 }
 
-.book-session-text {
-color: hsla(38, 38%, 25%, 0.89);
-text-align: center;
-padding-top: 20px;
+.yoga-img {
+  margin-left: 120px;
+  margin-top: 50px;
 }
+
+.yoga-text {
+  padding-left: 20px;
+  padding-top: 50px;
+  margin-top: 20px;
+  text-align:justify;
+}
+
+.yoga-btn {
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 150px;
+  border-radius: 5%;
+  margin-top: 70px;
+}
+
+.book-session-text {
+    text-align: center;
+}
+
 /* ---------------------------------------------------Newsletter---------------------------------*/
 
-
-/*--------------------------------------------Photos section on home page-----------------------------------*/
-
-
-.photos img {
-    max-width: 100%;
-    height:auto;
-    padding: 0;
-    margin-bottom: 30px;
-}
 
 /* ----------------------------------------------------Footer ---------------------------------*/
 
@@ -213,6 +217,7 @@ footer {
   margin-bottom: 30px;
   font-size: small;
 }
+
 .contact-heading a {
   color: #fafafa;
 }
@@ -220,10 +225,12 @@ footer {
 .follow-heading i {
     color: #fafafa;
 }
+
 .contact-heading a:hover {
   opacity: 0.2;
   text-decoration: underline;
 }
+
 .social-media {
   text-align: center;
 }
@@ -260,6 +267,7 @@ footer {
   border-radius: 5px;
   margin: 0 auto;
 }
+
 .form-group {
   margin-left: 70px;
   margin-top: 20px;
@@ -304,8 +312,7 @@ footer {
   padding: 30px;
 }
 
-.form-section h3,
-h4 {
+.form-section h3, h4 {
   color: #fafafa;
   margin-bottom: 20px;
   text-align: center;
@@ -317,6 +324,7 @@ h4 {
   height: 35px;
   border: 1px solid #fafafa;
   border-radius: 5px;
+  color:#fafafa
 }
 
 .btn-form {
@@ -331,83 +339,14 @@ h4 {
   color: #fafafa;
 }
 
-/*----------------------------------------------Media Queries----------------------------*/
-
-/* Media query for the form on the contact page borrowed from the Love Running challenge*/
-
-@media screen and (min-width: 992px) {
-  .center-form {
-    padding-top: 10px;
-    min-height: 240px;
-    max-width: 50%;
-    margin-bottom: 50px;
-    margin-left: 60px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-   
-
-    }
-}
-/*----------------------------------------------Class times-----------------------------*/
-
-/* Inspiration and the code for class times borrowed from Love Running challenge then edited with bootstrap grid options */
-
-.class-heading {  
-  height: 50px;
-  background-color: #c4881be3;
-  color: #fafafa;
-  text-align: center;
-  padding-top: 10px;
-  
-}
-
-.class-container {
-  /*background-image: url("../images/women.jpg");*/
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  overflow: hidden;
-  
-  
-  
-}
-
-.class-times {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid #fafafa;
-}
-
-.class-times h3 {
-  color: #fafafa;
-  text-align: center;
-}
-
-.class-times a {
-  color: #fafafa;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.class-times a:hover {
-  color: #c4881be3;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.btn-class {
-  margin-left: 120px;
-  margin-bottom: 10px;
-  color: #fafafa;
-  background-color: #c4881be3;
-  width: 100px;
-  text-align: center;
-}
-
 /*-------------------------------------Gallery Page-----------------------------------------*/
 
-
+.photos img {
+    max-width: 100%;
+    height:auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
 
 
 
@@ -418,71 +357,34 @@ h4 {
   text-align: justify;
   text-transform: uppercase;
   font-size: xx-large;
-  /*margin-top: 50px;
-    padding-bottom: 20px;*/
-}
-
-@media screen and (max-width:768px) {
-    .yoga-heading {
-    color: #c4881be3;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: x-large;
-  /*margin-top: 50px;
-    padding-bottom: 20px;*/
-}
-
 }
 
 .methods-text {
   color: #c4881be3;
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
   margin-top: 100px;
-  padding-right: 50px;
-}
-
-@media screen and (max-width:768px) {
-.methods-text {
-  color: #c4881be3;
-  text-align: center;
-  font-size: larger;
-  margin-top: 30px;
-  padding-right: 20px;
-}
+  padding-right: 80px;
 }
 
 .btn-advice {
-    margin-top: 50px;
-    margin-left: 200px;
-    color: #fafafa;
-    background-color: #c4881be3;
-    width: 300px;
-}
-
-@media screen and (max-width:768px) {
-.btn-advice {
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #fafafa;
-    background-color: #c4881be3;
-    width: 300px;
-}
+  margin-top: 60px;
+  margin-left: 250px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
 }
 
 .description-text {
-    text-align: justify;
-    font-size: larger;
-    margin: 50px 0px 50px 150px;
+  text-align: justify;
+  font-size: larger;
+  margin: 50px 0px 50px 150px;
 }
 
-@media screen and (max-width:768px) {
-    .description-text {
-    text-align: justify;
-    font-size: large;
-    margin: 0px auto;
+.kundalini-container {
+    padding: 0px;
 }
-}
+
 .quote-text {
   text-align: center;
   font-size: x-large;
@@ -492,16 +394,6 @@ h4 {
   margin-top: 50px;
  
 }
-@media screen and (max-width:768px) {
-    .quote-text {
-  text-align: center;
-  font-size: large;
-  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
-  padding-top: 10px;
-  color:#c4881be3;
-    }
-}
-
 
 .heading-text {
   color: #fafafa;
@@ -511,62 +403,73 @@ h4 {
   margin: 50px 30px 30px 20px;
 }
 
+.btn-class-kundalini {
+  margin-left: 355px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+  margin-top: -35px;
+}
+
+.btn-class-yin {
+  margin-left:695px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
+.btn-class-reiki {
+  margin-left:400px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
+.btn-class-shaman {
+  margin-left: 680px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
 .kundalini-img {
     display: flex;
     justify-content: center;
     margin-top: 80px;
     margin-left: 50px;
-
-}
-
-@media screen and (max-width:768px) {
-.kundalini-img {
-    display: flex;
-    justify-content: center;
-    margin:0px auto;
-}
 }
 
 .yin-img {
-margin-left: 150px;
+  margin-left: 150px;
 }
 
-@media screen and (max-width:768px) {
-    .yin-img {
-margin:0px auto;
-}
-    .yin-second-img {
-        margin-top: 10px;
- }
-}
 .reiki-img {
  margin-top: 50px;
 }
 
-@media screen and (max-width:768px) {
-    .reiki-img {
- margin-top: 10px;
-}
-}
 .breathing-img {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .shaman-img {
-    margin-left: 20px;
+   margin-top: 10px;
 }
 
-@media screen and (max-width:768px) {
-    .shaman-img {
-    margin:0px auto;
+.shaman-second-img {
+    
 }
+
 .shaman-second-img {
     margin-top: 10px;
 }
-}
 
 
-/*--------------------------Home page book section-------------------------------------------------------------------*/
+
+/*--------------------------Home page See Events section-------------------------------------------------------------------*/
 .btn-book {
   display: flex;
   justify-content: center;
@@ -580,7 +483,7 @@ margin:0px auto;
 /*--------------------------Events Page -------------------------------------------------------------------*/
 
 .events-title {
-   color: #c4881be3;
+  color: #c4881be3;
   text-align: center;
   text-transform: uppercase;
   font-size: xx-large;
@@ -590,18 +493,192 @@ margin:0px auto;
 }
 
 .retreat-title {
-    color:  hsla(38, 38%, 25%, 0.89);
-    text-align: center;
-    margin-top: 20px;
+  color:  hsla(38, 38%, 25%, 0.89);
+  text-align: center;
+  margin-top: 20px;
 }
+
 .retreat-text{
-      color:  hsla(38, 38%, 25%, 0.89);
-      text-align: justify;
-      font-size: large;
-  }
+  color:  hsla(38, 38%, 25%, 0.89);
+  text-align: justify;
+  font-size: large;
+}
+
 .video-position {
-    display:flex;
-    justify-content:center;
-    margin-bottom: 30px;
+  display:flex;
+  justify-content:center;
+  margin-bottom: 30px;
 }
  
+ /*----------------------------------------------Media Queries-----------------------------------*/
+
+/* Media query for the form on the contact page borrowed from the Love Running challenge*/
+
+@media screen and (min-width: 992px) {
+  .center-form {
+    padding-top: 10px;
+    min-height: 240px;
+    max-width: 50%;
+    margin-bottom: 50px;
+    margin-left: 60px;
+  }
+}
+
+/* Media queries for What I Do page */
+
+@media screen and (max-width:768px) {
+    .yoga-heading {
+    color: #c4881be3;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+  }
+
+  .methods-text {
+    color: #c4881be3;
+    text-align: center;
+    justify-items: center;
+    font-size: larger;
+    margin-top: 30px;
+    padding-right: 5px;
+  }
+
+  .btn-advice {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    color: #fafafa;
+    background-color: #c4881be3;
+    width: 150px;
+  }
+
+  .description-text {
+    
+    text-align: justify;
+    font-size: large;
+    
+    margin: 0px auto;
+  }
+
+  .description-text h6 {
+      display: inline;
+      margin-left: 75px;
+      padding-bottom:50px;
+      text-decoration: italic;
+  }
+
+  .quote-text {
+    margin-top: -50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: medium;
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+    color:#c4881be3;
+  }
+
+  .kundalini-img {
+    margin: 0px auto;
+   }
+
+  .yin-img {
+    margin:0px auto;
+  }
+
+  .yin-second-img {
+    margin-top: 10px;
+  }
+
+  .reiki-img {
+    margin-top: 10px;
+  }
+
+  .shaman-img {
+    margin:0px auto;
+  }
+
+.kundalini-container {
+   padding: 20px;
+}
+
+.btn-class-kundalini {
+  margin-left: 95px;
+  margin-top: 30px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+ 
+}
+.btn-class-yin {
+  margin-left:65px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
+.btn-class-reiki {
+  margin-top: 30px;
+  margin-left:70px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
+.btn-class-shaman {
+  margin-left: 75px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+}
+
+@media screen and (min-width: 992px) {
+
+.btn-class-kundalini {
+  margin-left: 420px;
+  margin-top: -40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+ 
+}
+
+.yin-img {
+  margin-left: 150px;
+  }
+
+.yin-second-img {
+       margin-left: -200px;
+  }
+
+  .btn-class-yin {
+  margin-left: 750px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
+.btn-class-shaman {
+  margin-left:830px;
+  margin-bottom: 40px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+}
+
+.shaman-img {
+    margin-left:120px;
+  }
+
+.shaman-second-img {
+margin-left: 10px;
+
+}
+
+}
+
+

@@ -19,14 +19,14 @@
 
   <body>
     <header>
-      <!---------Navigation Bar ---------------------------------------------------------------------->
+      <!---------Navigation Bar---------------------------------------------------------------------->
       <!----Taken from Bootstrap and edited to fit the look of the page --->
 
-      <nav class="navbar navbar-expand-lg navbar-style">
+      <nav class="navbar navbar-expand-lg navbar-style navbar-light">
         <a class="navbar-brand" href="index.html">
           <img
             src="assets/images/logo-leaf.png"
-            width="50"
+            width="55"
             height="50"
             class="d-inline-block"
             alt="logo"
@@ -74,18 +74,18 @@
           </ul>
         </div>
       </nav>
-      <!--- End Navigation Bar------------------------------------------------------------------------>
+      <!--- End Navigation Bar ------------------------------------------------------------------------>
     </header>
 
-    <!--Code for hero image and animation borrowed from the Love Running project------>
+    <!-- Code for hero image and animation borrowed from the Love Running project ------>
     <div class="hero-outer">
       <section class="container-fluid hero-container"></section>
     </div>
 
     <div class="container about-container">
       <section class="row about">
-        <div class="col-11 col-md-8">
-          <h3 class="title">Why Eleventh Embodiment?</h3>
+        <div class="col-12">
+          <h3 class="title-text">Eleventh  Embodiment</h3>
           <br />
           <h4 class="about">
             Human body is made up of ten bodies: the physical body, three mental
@@ -97,7 +97,7 @@
         </div>
       </section>
     </div>
-
+<hr class="hr-large">
     <section class="container owner-container">
       <div class="row">
         <div class="col-12">
@@ -175,37 +175,50 @@
         </div>
       </div>
     </section>
+<hr class="hr-large">
+    <h3 class="title-text">Methods I use in my practice</h3>
 
-    <section class="container-fluid photos">
-      <div class="row">
-        <div class="col-12 col-md-3">
-          <img
-            src="assets/images/ana-class.jpg"
-            alt="people in yoga class"
-            height="400"
-            width="500"
-          />
+    <div class="row kundalini">
+     <div class="col-12 col-md-2 yoga-img">
+            <img src="assets/images/kundalini.jpg" height="250" width="200" alt="woman practicing yoga">
         </div>
-        <div class="col-12 col-md-3">
-          <img src="assets/images/session.jpg" alt="people practicing yoga" />
-        </div>
-        <div class="col-12 col-md-3">
-          <img
-            src="assets/images/group.jpg"
-            alt="group of people sitting on the floor"
-            height="500"
-            width="650"
-          />
-        </div>
-        <div class="col-12 col-md-3">
-          <img src="assets/images/circle.jpg" alt="people lying on the floor" />
-        </div>
-      </div>
-    </section>
+    
+        <div class="col-12 col-md-8 yoga-text">
+            <h5>Kundalini Yoga</h5>
+                <p>The ancient yoga practice focuses on breath and asana (postures) along with chanting, meditation, and singing.
+                   Practice to increase your self-awareness by silencing your mind and unblocking your chakras so that your vital energy
+                   can flow freely. Some of the most popular health benefits of Kundalini include a faster metabolism, better mood, and 
+                   lowered stress levels.<br/>
+                   
+                </p>
+                <!---Code for button borrowed from this stack overflow post https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link#:~:text=The%20plain%20HTML%20way%20is,URL%20in%20the%20action%20attribute.&text=If%20necessary%2C%20set%20CSS%20display,type%3D%22submit%22%3E%20.--->
+                <a class="btn yoga-btn" href="what-i-do.html">Learn More</a>
+                
 
+        </div>
+    </div>  
+
+<div class="row">
+     <div class="col-12 col-md-2 yoga-img">
+            <img src="assets/images/yin.jpg" height="250" width="200" alt="woman practicing yoga">
+        </div>
+    
+        <div class="col-12 col-md-8 yoga-text">
+            <h5>Yin Yoga</h5>
+                <p>
+                    Yin Yoga is a slow-paced style of yoga as exercise, incorporating principles 
+                    of traditional Chinese medicine, with asanas (postures) that are held for longer periods of time than in other styles.<br/>
+                </p>
+                <br/>
+                <a class="btn yoga-btn" href="what-i-do.html">Learn More</a>
+        </div>
+    </div>  
+
+   
+<hr class="hr-large">
     <section class="container">
       <div class="row">
-        <div class="col-12 col-md-6 online-session">
+       <!-- <div class="col-12 col-md-6 online-session">
           <h3 class="book-session-text">Book Online Session</h3>
           <br />
           <button
@@ -216,18 +229,15 @@
           >
             Book
           </button>
+          <br />-->
+        </div>
+        <div class="col-12 col-md-12 online-session">
+          <h3 class="book-session-text">See Upcoming Events</h3>
+          <br />
+          <a class="btn btn-book" href="events.html">See Events</a>
           <br />
         </div>
-        <div class="col-12 col-md-6 online-session">
-          <h3 class="book-session-text">See Upcoming Retreats</h3>
-          <br />
-          <a href="events.html" />
-          <button type="submit" class="btn btn-secondary btn-book">
-            Learn More
-          </button>
-          <br />
-        </div>
-      </div>
+     
 </section>
 
     <footer class="container-fluid">

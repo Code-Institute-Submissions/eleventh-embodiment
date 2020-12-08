@@ -1,15 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Rajdhani:wght@300&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Ranchers&display=swap');
+
 body {
-  font-family: Lato, sans-serif;
-  
+  font-family: Acme, sans-serif;
+  background-image: url("../images/full-bloom.png");
 }
+
+#top, #bottom, #left, #right {
+	background: #c4881be3;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 8px;
+        overflow: hidden;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 8px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
 
 /* ---------------------------------------------Navbar ---------------------------------*/
 
 .navbar-style {
-  padding-left: 30px;
-  color: #c4881be3;
+  background-color: rgba(195,136,27,0.1);
+ 
 }
 
 .navbar-brand {
@@ -23,9 +44,9 @@ body {
 }
 
 .menuitem a {
-  font-size: larger;
+  font-size: x-large;
   color: #c4881be3;
-  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+ /* text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);*/
   text-transform: uppercase;
 }
 
@@ -60,7 +81,7 @@ body {
 
 .hr-small {
     border-top: 1px solid #c4881be3;
-    width: 400px;
+    width: 300px;
 }
 
 /* ---------------------------------------------Hero Image Section ----------------------------------*/
@@ -68,9 +89,9 @@ body {
 /* Code for hero image and animation borrowed from the Love Running project then edited to fit my website */
 
 .hero-container {
-  max-width: 100%;
+  max-width: 90%;
   height: 750px;
-  background: url("../images/focus.png") no-repeat center center;
+  background: url("../images/focuss.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -105,7 +126,7 @@ body {
 /* ---------------------------------------------Eleventh Embodiment section------------------------------------*/
 
 .about-container {
-  background-color: #c4881be3;
+  background-color: rgba(195,136,27,0.15);
   margin-bottom: 50px;
   height: 300px;
   
@@ -148,14 +169,7 @@ body {
 .owner-text {
   text-align: justify;
   padding-right: 50px;
-  color: hsla(38, 38%, 25%, 0.89);
-}
-
-.name-heading {
-  color: #c4881be3;
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 20px;
+  color: #584628;
 }
 
 .experience {
@@ -186,6 +200,8 @@ body {
 }
 
 .yoga-text {
+  color: hsla(38, 38%, 25%, 0.89);
+  font-size: larger;
   padding-left: 20px;
   padding-top: 50px;
   margin-top: 20px;
@@ -193,6 +209,8 @@ body {
 }
 
 .yoga-btn {
+  letter-spacing: 1px;
+  word-spacing: 4px;
   color: #fafafa;
   background-color: #c4881be3;
   width: 150px;
@@ -201,13 +219,15 @@ body {
 }
 
 .book-session-text {
+    color: hsla(38, 38%, 25%, 0.89);
     text-align: center;
     text-transform: uppercase;
     word-spacing: 4px;
 }
 
-/*--------------------------Home page See Events section-------------------------------------------------------------------*/
 .btn-book {
+  letter-spacing: 1px;
+  word-spacing: 4px;
   display: flex;
   justify-content: center;
   color: #fafafa;
@@ -295,6 +315,7 @@ footer {
 }
 
 .form-group {
+  color: hsla(38, 38%, 25%, 0.89);
   margin-left: 70px;
   margin-top: 20px;
 }
@@ -375,7 +396,6 @@ footer {
 }
 
 
-
 /*------------------------------------- What I do Page-----------------------------------------------*/
 
 .yoga-heading {
@@ -390,12 +410,16 @@ footer {
    margin-top: 20px;
     
 .what-img {
-    margin-top:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 }
 .methods-text {
-  color: #c4881be3;
+  color:  hsla(38, 38%, 25%, 0.89);
   text-align: center;
   font-size: x-large;
   margin-top: 50px;
@@ -404,15 +428,18 @@ footer {
 }
 
 .btn-advice {
-  margin-top: 60px;
-  margin-left: 450px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  color: #fafafa;
+  color:  #fafafa;
   background-color: #c4881be3;
   width: 200px;
 }
 
 .description-text {
+  color: hsla(38, 38%, 25%, 0.89);
   text-align: justify;
   font-size: larger;
   margin: 50px 0px 50px 150px;
@@ -455,7 +482,7 @@ footer {
 }
 
 .btn-class-yin {
-  margin-left: 850px;
+  margin-left: 650px;
   margin-bottom: 40px;
   color: #fafafa;
   background-color: #c4881be3;
@@ -464,7 +491,7 @@ footer {
 }
 
 .btn-class-reiki {
-  margin-left: 850px;
+  margin-left: 700px;
   margin-top: 80px;
   margin-bottom: 80px;
   color: #fafafa;
@@ -508,16 +535,16 @@ footer {
 }
 
 .breathing-img {
-  margin-bottom: 70px;
-  margin-left: 400px;
-  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 50px;
 
 }
 
 .shaman-img {
-   max-width: 100%;
-  height:auto;
-  margin-bottom: 30px;
+   margin-bottom: 30px;
 }
 
 
@@ -531,22 +558,19 @@ footer {
 /*--------------------------Events Page -------------------------------------------------------------------*/
 
 .page-header {
-  background-color: #c4881be3;
-  color:#fafafa;
-  height: 50px;
+  font-size: xxx-large;
+  color:#c4881be3;
   text-align: center;
   text-transform: uppercase;
-  display:flex;
-  align-items: center;
   justify-content: center;
+  letter-spacing: 4px;
+  margin-top: 80px;
 }
 
 .events-title {
   color: #c4881be3;
   text-align: center;
   text-transform: uppercase;
- 
-  margin:0px auto;
   padding-top: 50px;
 
 }
@@ -559,63 +583,74 @@ footer {
   margin-bottom: 50px;
 }
 
-.retreat-facts h3 {
-  
- color:  hsla(38, 38%, 25%, 0.89);
- 
+.retreat-text h3 {
   
 }
 
-.retreat-text h4 {
-    color: hsla(38, 38%, 25%, 0.89);
-    text-align: left;
-
+.retreat-facts h3 {
+  color:  hsla(38, 38%, 25%, 0.89);
+  text-align: center;
+  
 }
 
 .retreat-facts {
     margin-top: 50px;
     margin-bottom:50px;
     text-align:justify;
+}
 
+.retreat-facts h2 {
+    color: #c4881be3;
+    text-align:center;
 }
 
 .video-position {
   display:flex;
   justify-content:center;
-  margin-top: -10px;
-  margin-bottom: 30px;
+  margin-top: -30px;
+  margin-bottom: 40px;
+  padding-top: 0px;
 }
 
-/*#video-text { 
-    display:flex;
-  justify-content:center;
-}*/
 
 #price {
     color: #c4881be3;
     font-weight: 600;
-    
     font-size: xx-large;
 }
 
+.btn-retreat {
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  display: flex;
+  justify-content: center;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+  margin: 0 auto;
+}rm
+
 .workshop {
-   margin-top: 140px;
+   margin-top: 80px;
+   font-size: larger;
    
 }
  
 .workshop p {
     text-align: justify;
+    color: hsla(38, 38%, 25%, 0.89);
 }
 
 .workshop-img {
     margin-left: 50px;
     margin-bottom: 60px;
-    margin-top: 150px;
+    margin-top: 80px;
 
 }
 
 .workshop h3 {
     color: #c4881be3;
+   
       
 }
 
@@ -624,12 +659,13 @@ footer {
   color: #fafafa;
   background-color: #c4881be3;
   width: 200px;
+  margin-bottom: 30px;
     
 }
 
 .workshop ul {
     list-style-type: none;
-   
+    color: hsla(38, 38%, 25%, 0.89);
     padding 0px;
 }
  /*----------------------------------------------------------Media Queries------------------------------------------------------------------*/
@@ -664,7 +700,7 @@ footer {
 
 }
 .about-container {
-  background-color: #c4881be3;
+  
   height: 265px;
   
 }

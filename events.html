@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Eleventh Embodiment</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon-leaf.png" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   </head>
   <body>
+  
+   <div id="left"></div>
+   <div id="right"></div>
+   <div id="top"></div>
+
     <header>
       <!-- ================== Navigation Bar ======================================================================= -->
 
-      <nav class="navbar navbar-expand-lg navbar-style navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-style navbar-light ">
 			<a class="navbar-brand" href="index.html">
-				<img src="assets/images/logo-leaf.png" width="55" height="50" class="d-inline-block" alt="logo" loading="lazy"/></a>
+				<img src="assets/images/logo-leaf.png" width="75" height="70" class="d-inline-block" alt="logo" loading="lazy"/></a>
 				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarIcon" aria-controls="navbarIcon"
                   aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,14 +48,16 @@
     </header>
 
     
-   <h2 class="page-header">Events</h2>
-       <h3 class="events-title">Upcoming Retreats</h3>
+   <h2 class="page-header">Upcoming Events</h2>
+  
+       <h2 class="events-title">Retreats</h2>
          <hr class="hr-small">
     <div class="row">
-       <div class="col-6 offset-lg-5 events-title">
+       <div class="col-12 retreat-facts">
             <h3>Biodynamic Kundalini</h3>
             <h3>15.01.2021. - 30.01.2021.</h3>
             <h3>Goa, India</h3>
+            <h2> Price: 850.00 Euro</h2>
         </div>
     </div>  
     <!-- ======= Code to insert video borrowed from W3schools - link in README.md file ===== -->
@@ -62,10 +69,10 @@
           </div>
 
 
-<section class="container-fluid ">
+<section class="container ">
       <div class="row">
-        <div class="col-7 offset-lg-2 retreat-text">
-              <br /><h3><i class="fas fa-clipboard"></i> Overview:</h3>
+         <div class="col-12 retreat-text">
+              <h3><i class="fas fa-clipboard"></i> Overview:</h3><br/>
           <p>
             This retreat is designed to make you come fully alive again and
             experience yourself with a great feeling of fresh vitality and
@@ -86,19 +93,24 @@
     </div>
         <div class="row">
              <div class="col-4 ">
-                <img class="img-fluid" src="assets/images/accommodation.jpg" alt=""  />
+                <img class="img-fluid" src="assets/images/accommodation.jpg" alt="Three beach huts"  />
             </div>
             <div class="col-4">
-                <img class="img-fluid" src="assets/images/bedroom.jpg" alt=""  />
+                <img class="img-fluid" src="assets/images/bedroom.jpg" alt="Beach hut bedroom interior"  />
             </div>
           <div class="col-4">
-                <img class="img-fluid" src="assets/images/workshopk.jpg" alt=""  />
+                <img class="img-fluid" src="assets/images/workshopk.jpg" alt="People sitting on the floor practicing yoga"  />
             </div>
         </div> 
 </section>
+<div class="container">
         <div class="row">
+            
+            
+            
            <div class="col-4 retreat-text">            
-             <h3><i class="fas fa-map-marker-alt"></i> Location:</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Location:</h3>
+                <br/>
                 <p>
                     The retreat will be held in Palolem Beach, Goa, India. Palolem Beach
                     is largely unspoiled and is inhabited by both local fishermen and by
@@ -109,7 +121,8 @@
                 </p>
             </div>
           <div class="col-4 retreat-text"> 
-            <h3><i class="fas fa-bed"></i> Accommodation:</h3>
+               <h3><i class="fas fa-bed"></i> Accommodation:</h3>
+               <br/>
                 <p>
                     <a href="https://www.cubagoa.com/pages/our-properties/palolem-beach-resort" target="_blank">Palolem Beach Resort</a><br />
                     Check-in Time: 12:00 <br />
@@ -126,12 +139,11 @@
                 </p>
           </div> 
     
-            
-          
-                <div class="col-4 retreat-text">
+               <div class="col-4 retreat-text">
                    <h3><i class="fas fa-calendar-alt"></i> Schedule:</h3>
+                   <br/>
                  <p>
-                    07:00 - 08:30 <br/> Morning: Asana (postures), pranayama
+                    07:00 - 08:30 <br/> Asana (postures), pranayama
                     (breathing exercises), meditation, and mantra chanting<br />
                     08:30 - 09:30 <br/>Breakfast<br />
                     10:15 - 12:00 <br/>Personal time: rest, relax at the beach,
@@ -141,20 +153,22 @@
                     13:00 - 14:00 <br/>Lunch<br />
                     14:00 - 16:30 <br/>Personal time: rest, relax at the beach,
                     self-study/practice, healing sessions, private classes<br />
-                    16:30 - 18:00 Afternoon practice: asana, pranayama, and
+                    16:30 - 18:00 <br/>Afternoon practice: asana, pranayama, and
                     meditation<br />
                     18:00 - 19:00 <br/>Dinner<br />
                     19:00 - 19:30 <br/>Evening meditation<br />
                 </p>
             </div>
         </div>
-      
+  </div>    
     
-    <hr class="hr-large">
+  <button type="submit" class="btn btn-secondary btn-retreat" data-toggle="modal" data-target="#bookClassModal">
+            Book Retreat
+          </button>
    
 
     <section class="events-title">
-      <h3>Upcoming Workshops</h3>
+      <h2> Workshops</h2>
     </section>
         
     <hr class="hr-small">
@@ -162,8 +176,8 @@
     <div class="container-fluid workshop-container">
       <div class="row">
 
-         <div class="col-4 workshop-img" >
-            <img class="img-fluid" src="assets/images/workshopk.jpg" alt=""  />
+         <div class="col-3 workshop-img" >
+            <img class="img-fluid" src="assets/images/session.jpg" alt="People practicing yoga on the rooftop"  />
          </div>
         <div class="col-7 workshop">
              <h3>Kundalini Workshop</h3>
@@ -192,8 +206,8 @@
 </div>
     <div class="row">
 
-    <div class="col-4 workshop-img" >
-            <img class="img-fluid" src="assets/images/workshop.jpg" alt=""  />
+    <div class="col-3 workshop-img" >
+            <img class="img-fluid" src="assets/images/workshop.jpg" alt="Yoga teacher performing sound healing exercise with an instrument in a yoga class" />
          </div>
         <div class="col-7 workshop">
              <h3>Shamanic Breathwork Workshop</h3>

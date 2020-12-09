@@ -30,23 +30,29 @@ body {
 
 .navbar-style {
   background-color: rgba(195,136,27,0.1);
+  padding-top: 10px;
+  padding-bottom: 10px;
  
 }
 
 .navbar-brand {
-  color: #c4881be3;
-  font-size: xx-large;
   margin-left: 5px;
+  margin-top: 30px;
+  padding-bottom: 0px;
 }
+
 
 .navbar-brand-text:hover {
   color: slategray;
 }
 
+.menucontainer {
+    margin-top: 20px;
+}
+
 .menuitem a {
   font-size: x-large;
   color: #c4881be3;
- /* text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);*/
   text-transform: uppercase;
 }
 
@@ -267,7 +273,7 @@ footer {
   color: #fafafa;
 }
 
-.follow-heading i {
+.follow-heading a {
     color: #fafafa;
 }
 
@@ -411,10 +417,8 @@ footer {
    margin-top: 20px;
     
 .what-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  max-width: 100%; 
+  height: auto;
 
 }
 
@@ -426,14 +430,14 @@ footer {
   margin-top: 50px;
   margin-left: 60px;
   padding-right: 80px;
+  margin-bottom: 50px;
+  
 }
 
 .btn-advice {
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 50px;
   color:  #fafafa;
   background-color: #c4881be3;
   width: 200px;
@@ -473,8 +477,8 @@ footer {
 }
 
 .btn-class-kundalini {
-  margin-left: 455px;
-  margin-bottom: 50px;
+  display: table;
+  margin: 0 auto;
   margin-top: -40px;
   color: #fafafa;
   background-color: #c4881be3;
@@ -483,16 +487,18 @@ footer {
 }
 
 .btn-class-yin {
-  margin-left: 650px;
-  margin-bottom: 40px;
+   display: table;
+  margin: 0 auto;
   color: #fafafa;
   background-color: #c4881be3;
   width: 200px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .btn-class-reiki {
-  margin-left: 700px;
+   display: table;
+  margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 80px;
   color: #fafafa;
@@ -501,7 +507,8 @@ footer {
 }
 
 .btn-class-shaman {
-  margin-left: 850px;
+ display: table;
+  margin: 0 auto;
   margin-bottom: 40px;
   color: #fafafa;
   background-color: #c4881be3;
@@ -685,7 +692,7 @@ footer {
 /*
 
 
-/* ---------------------------------------------------------------- (Small) Mobile---------------------------------------------------------- */
+/* ------------------------------------------------------ (Extra Small) Mobile---------------------------------------------------------- */
 
 
 /* ------------------------------------------------ Home Page -------------------------------*/
@@ -693,9 +700,19 @@ footer {
 
 
 @media (min-width: 320px) and (max-width: 575px) {
- 
+
+    
+ #top, #bottom, #left, #right { 
+     display: none; }
+
+.navbar-brand {
+  margin-left: 5px;
+  margin-top: 55px;
+  padding-bottom: 0px;
+}
+
 .hero-outer {
-  height: 570px;
+  height: 650px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -703,9 +720,9 @@ footer {
 }
 
 .about-container {
-  background-color: rgba(195,136,27,0.15);
+  background-color: rgba(195,136,27,0.3);
   color: #584628;
-  height: 265px;
+  height: 285px;
   
 }
 
@@ -767,13 +784,95 @@ footer {
     padding: 40px;
 }
 }
+/* ------------------------------------------------ What I Do Page -------------------------------*/
+
+.yoga-heading {
+    margin-top: 30px;
+}
+
+.page-header {
+    margin-top: 30px;
+}
+
+what-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+.kundalini-container {
+    padding: 20px;
+}
+
+.description-text {
+  color: hsla(38, 38%, 25%, 0.89);
+  text-align: justify;
+  font-size: larger;
+  margin: 0px auto;
+  
+}
+
+.methods-text {
+  color:  hsla(38, 38%, 25%, 0.89);
+  text-align: center;
+  font-size: larger;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+}
+
+.quote-text {
+   text-align: justify;
+  font-size: larger;
+  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+  padding-top: 10px;
+  padding-right: 10px;
+  color:#c4881be3;
+  margin-top: 50px;
+  margin-bottom:50px;
+  margin-left: 10px;
+ 
+}
+
+.shaman-img {
+  max-width: 100%; 
+   height: auto;
+}
 
 
+.shaman-second-img {
+  max-width: 100%; 
+  height: auto;
+}
 
+.breathing-img {
+  display: none;
+}
+
+.btn-class-shaman {
+    margin-top: 30px;
+}
+}
+
+/* ------------------------------------------------ Low Resolution Tablets, Mobiles (Landscape) -------------------------*/
+
+/* ------------------------------------------------ Home Page ---------------------------------------------------*/
 @media (min-width: 576px) and (max-width: 767px) {
 
+.navbar-brand {
+  margin-left: 5px;
+  margin-top: 45px;
+  padding-bottom: 0px;
+}
+
+#top, #bottom, #left, #right { 
+     display: none; }
+
 .hero-outer {
-  height: 600px;
+  height: 655px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -781,8 +880,8 @@ footer {
 }
 
 .about-container {
-  background-color: rgba(195,136,27,0.15);
-  height: 300px;
+  background-color: rgba(195,136,27,0.5);
+  height: 400px;
 }
 
 .title-text-about {
@@ -841,14 +940,16 @@ footer {
 }
 }
 
-/* -------------------------------------------------------------------------------- (Medium) Tablet -------------------- */
 
-/* ------------------------------------------------ Home Page -------------------------------*/
+
+
+/* ------------------------------------------------ Medium  -------------------------------*/
+
 @media  (min-width: 768px) and (max-width: 992px) {
 
-
+/* ------------------------------------------------ Home Page -------------------------------*/
 .hero-outer {
-  height: 600px;
+  height: 680px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -895,12 +996,36 @@ footer {
     margin-bottom: 40px;
 }
 
+.yoga-img {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  width: 45%;
+  
 }
 
+.yoga-text {
+   text-align:justify;
+   padding: 25px;
+}
+
+/* ------------------------------------------------ What I Do Page -------------------------------*/
+.breathing-img {
+    display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+
+}
+}
 /* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
 
 @media  (min-width: 993px) and (max-width: 1280px) {
 
+.about-container {
+  background-color: rgba(195,136,27,0.5);
+  height: 310px;
+}
 
 .title-text-about {
   text-align: center;
@@ -941,10 +1066,24 @@ footer {
     margin-bottom: 50px;
 }
 
+<!------------------------------------------------------------ What I Do Page ----------------------------------------->
 
+.kundalini-img {
+    margin-top: 30px
+}
+
+.quote-text {
+    text-align: center;
+}
+}
 /* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
 
 @media screen and (min-width: 1281px) {
+
+.about-container {
+  background-color: rgba(195,136,27,0.5);
+  height: 300px;
+}
 
 .hero-outer {
   height: 750px;
@@ -990,5 +1129,9 @@ footer {
 .online-session {
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.quote-text {
+    text-align: center;
 }
 }

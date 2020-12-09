@@ -636,7 +636,7 @@ footer {
   background-color: #c4881be3;
   width: 200px;
   margin: 0 auto;
-}rm
+}
 
 .workshop {
    margin-top: 80px;
@@ -855,7 +855,10 @@ what-img {
 .btn-class-shaman {
     margin-top: 30px;
 }
-}
+
+
+/* ------------------------------------------------ Events Page ---------------------------------------------------*/
+
 
 /* ------------------------------------------------ Low Resolution Tablets, Mobiles (Landscape) -------------------------*/
 
@@ -1131,6 +1134,8 @@ what-img {
     margin-bottom: 60px;
 }
 
+
+/* ------------------------------------- What I Do ------------------------------------------*/
 .quote-text {
     text-align: center;
 }

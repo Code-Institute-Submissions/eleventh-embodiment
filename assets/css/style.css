@@ -5,6 +5,8 @@
 body {
   font-family: Acme, sans-serif;
   background-image: url("../images/full-bloom.png");
+  
+  
 }
 
 #top, #bottom, #left, #right {
@@ -618,6 +620,7 @@ footer {
   margin-top: -30px;
   margin-bottom: 40px;
   padding-top: 0px;
+
 }
 
 
@@ -806,6 +809,10 @@ what-img {
     padding: 20px;
 }
 
+.kundalini-img {
+    margin-top: 10px;
+}
+
 .description-text {
   color: hsla(38, 38%, 25%, 0.89);
   text-align: justify;
@@ -856,9 +863,21 @@ what-img {
     margin-top: 30px;
 }
 
+.btn-class-kundalini {
+  display: table;
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #fafafa;
+  background-color: #c4881be3;
+  width: 200px;
+  
+}
 
 /* ------------------------------------------------ Events Page ---------------------------------------------------*/
 
+.retreat-img img{
+    margin-bottom: 10px;
+}
 
 /* ------------------------------------------------ Low Resolution Tablets, Mobiles (Landscape) -------------------------*/
 
@@ -1023,7 +1042,7 @@ what-img {
 }
 /* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
 
-@media  (min-width: 993px) and (max-width: 1280px) {
+@media  (min-width: 993px) and (max-width: 1200px) {
 
 .about-container {
   background-color: rgba(195,136,27,0.5);
@@ -1081,7 +1100,7 @@ what-img {
 }
 /* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1201px) {
 
 .about-container {
   background-color: rgba(195,136,27,0.5);
@@ -1125,7 +1144,7 @@ what-img {
 }
 
 .yoga-img {
-  margin-left: 120px;
+  margin-left: 20px;
   margin-top: 50px;
 }
 
@@ -1139,4 +1158,10 @@ what-img {
 .quote-text {
     text-align: center;
 }
+
+.kundalini-img {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
 }

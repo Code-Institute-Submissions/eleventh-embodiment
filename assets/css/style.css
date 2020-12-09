@@ -126,7 +126,8 @@ body {
 /* ---------------------------------------------Eleventh Embodiment section------------------------------------*/
 
 .about-container {
-  background-color: rgba(195,136,27,0.15);
+  background-color: rgba(195,136,27,0.2);
+  color: hsla(38, 38%, 25%, 0.89);
   margin-bottom: 50px;
   height: 300px;
   
@@ -689,25 +690,30 @@ footer {
 
 /* ------------------------------------------------ Home Page -------------------------------*/
 
-@media screen and (min-width: 360px) {
 
 
+@media (min-width: 320px) and (max-width: 575px) {
+ 
 .hero-outer {
-  height: 560px;
+  height: 570px;
   width: 100%;
   overflow: hidden;
   position: relative;
 
 }
+
 .about-container {
-  
+  background-color: rgba(195,136,27,0.15);
+  color: #584628;
   height: 265px;
   
 }
 
+
+
 .title-text-about {
   text-align: center;
-  color: #fafafa;
+   color: #584628;
   padding-top: 15px;
   text-transform: uppercase;
   word-spacing: 5px;
@@ -715,15 +721,17 @@ footer {
   
 }
 
+
 .about {
   justify-content: center;
   align-items: center;
-  color: #fafafa;
-  text-align: justify;
+  color: #584628;
+  text-align: center;
   font-size: large;
-  padding:0px;
+  padding: 5px;
   margin-top: -10px;
 }
+
 
 .owner-img {
   max-width: 100%;
@@ -731,18 +739,17 @@ footer {
   margin: 0px auto;
 }
 
+
 .owner-text {
   display:flex;
   justify-items: center;
   text-align: justify;
-  padding: 15px;
+  padding: 25px;
   color: hsla(38, 38%, 25%, 0.89);
-  
-
-.teacher-training, .teaching {
-    font-size: small;
-    text-align:justify;
 }
+
+
+
 .title-text {
   text-align: center;
   color: #c4881be3;
@@ -757,14 +764,87 @@ footer {
 
 .yoga-text {
     text-align:justify;
-    padding: 30px;
+    padding: 40px;
+}
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+.hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.about-container {
+  background-color: rgba(195,136,27,0.15);
+  height: 300px;
+}
+
+.title-text-about {
+  text-align: center;
+  color: #584628;
+  padding-top: 70px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: xx-large;
+  margin-top: -20px;
+  
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+  color: #584628;
+  text-align: center;
+  font-size: larger;
+  padding-top: 15px;
+  margin-top: -30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.owner-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.owner-text {
+  display:flex;
+  justify-items: center;
+  text-align: justify;
+  padding: 25px;
+  color: hsla(38, 38%, 25%, 0.89);
+}
+
+.yoga-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.yoga-text {
+   text-align:justify;
+   padding: 45px;
+}
+
+.online-session {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 }
 
 /* -------------------------------------------------------------------------------- (Medium) Tablet -------------------- */
 
 /* ------------------------------------------------ Home Page -------------------------------*/
-@media screen and (min-width: 768px) {
+@media  (min-width: 768px) and (max-width: 992px) {
 
 
 .hero-outer {
@@ -775,15 +855,15 @@ footer {
 
 }
 .about-container {
-  background-color: #c4881be3;
+  background-color:  rgba(195,136,27,0.5);
   height: 355px;
   
 }
 
 .title-text-about {
   text-align: center;
-  color: #fafafa;
-  padding-top: 15px;
+  color: #584628;
+  padding-top: 40px;
   text-transform: uppercase;
   word-spacing: 5px;
   font-size: xx-large;
@@ -793,10 +873,12 @@ footer {
 .about {
   justify-content: center;
   align-items: center;
-  color: #fafafa;
+  color: #584628;
   text-align: center;
   font-size: x-large;
-  padding-top:20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-top: -10px;
 }
 
@@ -806,21 +888,39 @@ footer {
   margin-top: 8px;
   margin-bottom: 30px;
 }
+
+
+.online-session {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 }
 
 /* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
 
-@media screen and (min-width: 992px) {
+@media  (min-width: 993px) and (max-width: 1280px) {
+
+
+.title-text-about {
+  text-align: center;
+  color: #584628;
+  padding-top: 40px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: xx-large;
+}
 
 .about {
   justify-content: center;
   align-items: center;
-  color: #fafafa;
+  color: #584628;
   text-align: center;
   font-size: larger;
-  padding-top:20px;
-  margin-top: -10px;
-  line-height: 
+  margin-top: -20px;
+  padding-bottom:20px;
+  padding-left: 40px;
+  padding-right:40px;
 }
 
 .owner-img {
@@ -835,12 +935,16 @@ footer {
   padding-right: 50px;
   color: hsla(38, 38%, 25%, 0.89);
 }
+
+.online-session {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 /* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1281px) {
 
 .hero-outer {
   height: 750px;
@@ -849,11 +953,26 @@ footer {
   position: relative;
 }
 
-.about-container {
-  background-color: #c4881be3;
-  margin-bottom: 50px;
-  height: 250px;
-  
+
+.title-text-about {
+  text-align: center;
+  color: #584628;
+  padding-top: 40px;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-size: xx-large;
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+  color: #584628;
+  text-align: center;
+  font-size: larger;
+  margin-top: -20px;
+  padding-bottom:20px;
+  padding-left: 40px;
+  padding-right:40px;
 }
 
 .yoga-text {
@@ -866,5 +985,10 @@ footer {
 .yoga-img {
   margin-left: 120px;
   margin-top: 50px;
+}
+
+.online-session {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 }

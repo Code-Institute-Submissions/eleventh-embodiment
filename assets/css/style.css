@@ -277,9 +277,7 @@ footer {
 	margin-bottom: 30px;
     font-size: small;
     text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.5);
-    
 }
-
 
 .contact-heading a {
 	color: #fafafa;
@@ -776,6 +774,11 @@ h4 {
 	.yoga-text {
 		text-align: justify;
 		padding: 40px;
+    }
+    
+    .online-session {
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 	/* ------------------------------------------------ What I Do Page -------------------------------*/
 	.yoga-heading {
@@ -841,7 +844,8 @@ h4 {
 	.btn-class-kundalini {
 		display: table;
 		margin: 0 auto;
-		margin-top: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
 		color: #fafafa;
 		background-color: #c4881be3;
 		width: 200px;
@@ -936,8 +940,8 @@ h4 {
 		padding: 45px;
 	}
 	.online-session {
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
     /* -----------------------------------------------What I Do Page --------------------------------*/
     .methods-text {
@@ -961,7 +965,7 @@ h4 {
     .btn-class-kundalini {
           justify-items: center;
           margin-top: 40px;
-          margin-bottom: 30px;
+          margin-bottom: 50px;
     }
 	/* -----------------------------------------------Events Page --------------------------------*/
 	.video-position video {
@@ -1034,13 +1038,17 @@ h4 {
 	.yoga-img {
 		display: block;
 		margin-left: auto;
-		margin-right: 50px;
-		width: 45%;
+		width: 70%;
 	}
 	.yoga-text {
+        margin-top: -5px;
 		text-align: justify;
-		padding: 25px;
-	}
+		padding-right: 35px;
+    }
+    
+    .yoga-btn {
+        margin-top: -25px;
+    }
 	.quote-text {
 		text-align: center;
 		display: block;
@@ -1071,6 +1079,11 @@ h4 {
     
     .btn-class-kundalini {
         margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .btn-class-shaman {
+        margin-top: 50px;
     }
 	/* -------------------------------------------Events Page -----------------------------------*/
 	.video-position video {
@@ -1084,7 +1097,7 @@ h4 {
 	}
 	.workshop-img {
 		margin-bottom: 30px;
-		margin-top: 70px;
+		margin-top: 200px;
 	}
 	.workshop {
 		margin-top: 20px;
@@ -1335,6 +1348,10 @@ h4 {
     }
     .btn-class-kundalini {
         justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .btn-class-shaman {
         margin-top: 50px;
     }
 }

@@ -80,7 +80,7 @@ body {
 	z-index: -1;
 	max-width: 100%;
 	height: 750px;
-	background: url("../images/focuss.jpg") no-repeat center center;
+	background: url("../images/hero.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -208,7 +208,7 @@ body {
 	color: #fafafa;
 	background-color: #c4881be3;
 	width: 150px;
-	border-radius: 5%;
+	border-radius: 5px;
 	margin-top: 40px;
 }
 
@@ -233,6 +233,28 @@ body {
 
 /* ---------------------------------------------------Newsletter---------------------------------*/
 
+.newsletter-heading {
+    padding-top: 30px;
+    
+}
+
+.newsletter-heading h4 {
+    color: hsla(38, 38%, 25%, 0.89);
+}
+.newsletter-input {
+  border-radius: 5px;
+  width: 200px;
+  border-color: #c4881be3;
+}
+form button {
+    color: hsla(38, 38%, 25%, 0.89);
+    background-color: #fafafa;
+    border-radius: 5px;
+    width: 80px;
+    border-color: #c4881be3;
+}
+
+
 
 /* ----------------------------------------------------Footer ---------------------------------*/
 
@@ -246,7 +268,7 @@ footer {
 .follow-heading {
 	margin-top: 30px;
     text-align: center;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact-heading {
@@ -254,9 +276,10 @@ footer {
 	margin-top: 30px;
 	margin-bottom: 30px;
     font-size: small;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.5);
     
 }
+
 
 .contact-heading a {
 	color: #fafafa;
@@ -298,7 +321,8 @@ footer {
 	margin-top: 30px;
 	margin-bottom: 30px;
     font-size: small;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
+    text-shadow: #fafafa
+    /*5px 3px 10px rgba(0, 0, 0, 0.5);*/
 }
 
 /* ----------------------------------------------------Modal -------------------------------*/
@@ -770,13 +794,15 @@ h4 {
 		padding: 20px;
 	}
 	.kundalini-img {
-		margin-top: 10px;
+        margin-top: 10px;
+        
 	}
 	.description-text {
 		color: hsla(38, 38%, 25%, 0.89);
 		text-align: justify;
 		font-size: larger;
-		margin: 0px auto;
+        margin: 0 auto;
+        padding-top: 30px;
 	}
 	.methods-text {
 		color: hsla(38, 38%, 25%, 0.89);
@@ -788,12 +814,12 @@ h4 {
 		margin-bottom: 50px;
 	}
 	.quote-text {
-		text-align: justify;
+		text-align: center;
 		font-size: larger;
 		text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.281);
 		padding-top: 10px;
-		padding-right: 25px;
-		padding-left: 25px;
+		padding-right: 30px;
+		padding-left: 30px;
 		color: #c4881be3;
 		margin-top: 50px;
 		margin-bottom: 50px;
@@ -913,11 +939,30 @@ h4 {
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
-	/* -----------------------------------------------What I Do Page --------------------------------*/
+    /* -----------------------------------------------What I Do Page --------------------------------*/
+    .methods-text {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    .quote-text {
+        padding: 60px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
 	.description-text {
-		margin-left: 20px;
-		padding-left: 30px;
-	}
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    .kundalini-btn-parent {
+        display: flex;
+    }
+    .btn-class-kundalini {
+          justify-items: center;
+          margin-top: 40px;
+          margin-bottom: 30px;
+    }
 	/* -----------------------------------------------Events Page --------------------------------*/
 	.video-position video {
 		width: 70%;
@@ -999,23 +1044,34 @@ h4 {
 	.quote-text {
 		text-align: center;
 		display: block;
-		justify-items: center;
+        justify-items: center;
+        padding-left: 40px;
 	}
 	/* ------------------------------------------------ What I Do Page -------------------------------*/
 	.breathing-img {
 		display: block;
 		max-width: 100%;
 		height: auto;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 	.quote-text {
 		text-align: center;
 		justify-items: center;
 	}
-	.description-text {
-		margin-left: 20px;
-		padding-left: 60px;
-	}
+	
+    .description-text{
+        margin: 0 auto;
+        padding-top: 30px;
+       
+    }
+	.kundalini-img {
+        margin-top: -20px;
+        padding: 30px;
+    }
+    
+    .btn-class-kundalini {
+        margin-top: 30px;
+    }
 	/* -------------------------------------------Events Page -----------------------------------*/
 	.video-position video {
 		width: 60%;
@@ -1079,14 +1135,36 @@ h4 {
 	.online-session {
 		margin-top: 50px;
 		margin-bottom: 50px;
-	}
-	/*---------------------------------------------------------- What I Do Page ---------------------------------*/
+    }
+    
+    .yoga-img {
+        margin-left: 10px;
+		margin-top: 50px;
+    }
+
+    .yoga-text {
+        padding-right: 50px;
+    }
+    /*---------------------------------------------------------- What I Do Page ---------------------------------*/
+    .description-text{
+        margin: 0 auto;
+        padding-top: 30px;
+    }
 	.kundalini-img {
-		margin-top: 60px;
+        margin-top: -20px;
+        padding: 30px;
 	}
 	.quote-text {
 		text-align: center;
-	}
+    }
+    
+    .kundalini-btn-parent {
+        display:flex;
+    }
+    .btn-class-kundalini {
+        justify-content: center;
+        margin-top: 50px;
+    }
 	/*---------------------------------------------------------- Events Page -----------------------------------------*/
 	.video-position video {
 		width: 70%;
@@ -1151,11 +1229,32 @@ h4 {
 	.quote-text {
 		text-align: center;
 	}
+	  .description-text{
+        margin: 0 auto;
+        padding-top: 30px;       
+    }
+
+      .description-text{
+        margin: 0 auto;
+        padding-top: 30px;
+    }
 	.kundalini-img {
-		margin-top: 8px;
-		margin-left: 20px;
+        margin-top: -20px;
+        padding: 30px;
 	}
-	/* ------------------------------------- Events Page --------------------------------------*/
+	.quote-text {
+		text-align: center;
+    }
+    
+    .kundalini-btn-parent {
+        display:flex;
+    }
+    .btn-class-kundalini {
+        justify-content: center;
+        margin-top: 50px;
+    }
+       
+    /* ------------------------------------- Events Page --------------------------------------*/
 	.video-position video {
 		width: 60%;
 		display: block;
@@ -1200,12 +1299,42 @@ h4 {
 	}
 	.yoga-img {
 		margin-left: 65px;
-		margin-top: 50px;
-	}
+        margin-top: 50px;
+    }
+    .book-session-text {
+	color: hsla(38, 38%, 25%, 0.89);
+	text-align: center;
+	text-transform: uppercase;
+    word-spacing: 4px;
+    margin-top: 30px;
+    }
+    .btn-book {
+        margin-bottom: 30px;
+    }
 	.video-position video {
 		width: 50%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+    }
+    
+    .description-text{
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+	.kundalini-img {
+        margin-top: -20px;
+        padding-left: 80px;
 	}
+	.quote-text {
+		text-align: center;
+    }
+    
+    .kundalini-btn-parent {
+        display:flex;
+    }
+    .btn-class-kundalini {
+        justify-content: center;
+        margin-top: 50px;
+    }
 }

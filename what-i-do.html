@@ -102,8 +102,11 @@
     </div>
 
     <div class="container-fluid kundalini-container">
-        <div class="row">
-            <div class="col-12 col-sm-10 col-md-11 col-lg-6 col-xl-7 description-text">
+        <div class="row "> 
+            <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 kundalini-img">
+                <img class="img-fluid" src="assets/images/river.jpg" alt="A woman meditating beside the river" />
+            </div>
+            <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 description-text">
                 <p>
                     Kundalini Yoga is a place of transformation, is not to be taken lightly. It is like an express train
                     that shakes
@@ -136,16 +139,18 @@
                     just come as you are! Welcome to the journey!
                 </p>
             </div>
-            <div class="col-12 col-md-11 col-lg-4 col-xl-3 kundalini-img">
-                <img class="img-fluid" src="assets/images/river2.jpg" alt="A woman meditating beside the river" />
-            </div>
+            
 
         </div>
     </div>
-    <button type="submit" class="btn btn-secondary btn-class-kundalini" data-toggle="modal"
-        data-target="#bookClassModal">
-        Book Class
-    </button>
+    <div class="row">
+        <div class="col-12 kundalini-btn-parent">
+        <button type="submit" class="btn btn-secondary btn-class-kundalini" data-toggle="modal" data-target="#bookClassModal">
+                Book Class
+        </button>
+        </div>
+    </div>
+    
     <!-- ======================= End Kundalini section ============================================================= -->
 
     <hr class="hr-large">
@@ -275,11 +280,15 @@
 
     <section class="container-fluid">
         <div class="row">
-            <div class="col-10  description-text">
+            
+            <div class="col-12">
                 <h5 class="yoga-heading">Shamanic Breathwork</h5>
                 <br />
                 <img class="breathing-img img-fluid" src="assets/images/breath.jpg"
                     alt="Drawing of a woman breathing out flowers representing energy flow">
+            </div>   
+                
+            <div class="col-10  description-text">
                 <p>
                     Powerful breathing technique for emotional and energetic cleansing.
                     A wonderful technique to discover new possibilities for growth/healing/awakening, no matter where
@@ -314,6 +323,7 @@
                 Our breath is our healer, I'm looking forward to breathe together .
             </div>
         </div>
+    
         <button type="submit" class="btn btn-secondary btn-class-shaman " data-toggle="modal"
             data-target="#bookClassModal">
             Book Private Session
@@ -336,7 +346,7 @@
 
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 contact-heading">
+            <div class="col-12 col-md-12 col-lg-4 contact-heading">
                 <h4>Contact me:</h4>
                 <h5><i class="fa fa-envelope"></i><a href="contact.html"> harpreet@elem.com</a>
                 </h5>
@@ -345,7 +355,14 @@
                 <h5><i class="fa fa-instagram"></i><a href="instagram.com"> @eleventh_embodiment</a>
                 </h5>
             </div>
-            <div class="col-12 col-md-6 follow-heading">
+            <div class="col-12 col-md-12 col-lg-4 newsletter-heading">
+                <h4>Receive a FREE private session of your choice when you sign up for my newsletter!</h4>
+                <form><input class="newsletter-input" type="email" placeholder="Enter your e-mail">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+    
+            <div class="col-12 col-md-12 col-lg-4 follow-heading">
                 <h4>Follow Me:</h4>
                 <ul class="social-media">
                     <li>

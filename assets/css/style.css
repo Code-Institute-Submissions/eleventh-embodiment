@@ -2,7 +2,9 @@
 body {
 	font-family: Acme, sans-serif;
 	background-image: url("../images/full-bloom.png");
-	border: 5px solid #c4881be3;
+    border: 5px solid #c4881be3;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -718,7 +720,12 @@ h4 {
 		margin-left: 5px;
 		margin-top: 55px;
 		padding-bottom: 0px;
-	}
+    }
+    
+    .grow a:hover {
+	transform: scale(0.9);
+    }
+  
 	.hero-outer {
 		height: 650px;
 		width: 100%;
@@ -885,7 +892,11 @@ h4 {
 		margin-left: 5px;
 		margin-top: 45px;
 		padding-bottom: 0px;
-	}
+    }
+    
+    .grow a:hover {
+	transform: scale(0.9);
+    }
 	.hero-outer {
 		height: 655px;
 		width: 100%;
@@ -995,7 +1006,11 @@ h4 {
 	/* ------------------------------------------------ Home Page -------------------------------*/
 	.navbar {
 		margin-top: -40px;
-	}
+    }
+    
+    .grow a:hover {
+	transform: scale(0.9);
+    }
 	.hero-outer {
 		height: 680px;
 		width: 100%;

@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Ranchers&display=swap');
 
 body {
-    background-image: url("../images/background.png");
+    background-image: url("../images/full-bloom.png");
     font-family: Acme, sans-serif;
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
 }
 
-/*.body-background {
-   background-image: url("../images/full-bloom.png");
-    background-blend-mode: saturation;
-}*/
-    
+  
     /* ========================================= Navbar ============================== */
 
 .navbar-style {

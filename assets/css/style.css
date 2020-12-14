@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Ranchers&display=swap');
+
 body {
-	font-family: Acme, sans-serif;
-	background-image: url("../images/full-bloom.png");
-    border: 5px solid #c4881be3;
+    background-image: url("../images/background.png");
+    font-family: Acme, sans-serif;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
-
-/* ========================================= Navbar ============================== */
+/*.body-background {
+   background-image: url("../images/full-bloom.png");
+    background-blend-mode: saturation;
+}*/
+    
+    /* ========================================= Navbar ============================== */
 
 .navbar-style {
 	background-color: rgba(195, 136, 27, 0.1);
@@ -245,7 +250,8 @@ body {
 }
 .newsletter-input {
   border-radius: 5px;
-  width: 200px;
+  width: 300px;
+  height: 30px;
   border-color: #c4881be3;
 }
 form button {
@@ -253,6 +259,7 @@ form button {
     background-color: #fafafa;
     border-radius: 5px;
     width: 80px;
+    height: 30px;
     border-color: #c4881be3;
 }
 
@@ -270,7 +277,7 @@ footer {
 .follow-heading {
 	margin-top: 30px;
     text-align: center;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-heading {
@@ -278,7 +285,7 @@ footer {
 	margin-top: 30px;
 	margin-bottom: 30px;
     font-size: small;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-heading a {
@@ -313,7 +320,7 @@ footer {
 }
 
 .social-media li a:hover {
-	opacity: 0.3;
+	opacity: 0.2;
 }
 
 .newsletter-heading {
@@ -322,7 +329,7 @@ footer {
 	margin-bottom: 30px;
     font-size: small;
     text-shadow: #fafafa
-    /*5px 3px 10px rgba(0, 0, 0, 0.5);*/
+   
 }
 
 /* ----------------------------------------------------Modal -------------------------------*/
@@ -411,7 +418,8 @@ h4 {
 	margin-bottom: 5px;
 	color: #fafafa;
 	background-color: #c4881be3;
-	width: 100px;
+    width: 100px;
+    height: 35px;
 }
 
 .label-color {
@@ -969,6 +977,14 @@ h4 {
         margin: 0 auto;
         padding-top: 30px;
     }
+
+    .kundalini-img {
+       margin-top: 10px;
+       display: block;
+	   margin-left: auto;
+	   margin-right: auto;
+       width: 70%;
+    }
     
     .kundalini-btn-parent {
         display: flex;
@@ -1088,8 +1104,12 @@ h4 {
        
     }
 	.kundalini-img {
-        margin-top: -20px;
-        padding: 30px;
+       margin-top: -20px;
+       display: block;
+	   margin-left: auto;
+	   margin-right: auto;
+       width: 70%;
+    
     }
     
     .btn-class-kundalini {
@@ -1179,8 +1199,12 @@ h4 {
         padding-top: 30px;
     }
 	.kundalini-img {
-        margin-top: -20px;
-        padding: 30px;
+    margin-top: -20px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+       width: 60%;
+    
 	}
 	.quote-text {
 		text-align: center;
@@ -1267,8 +1291,12 @@ h4 {
         padding-top: 30px;
     }
 	.kundalini-img {
-        margin-top: -20px;
-        padding: 30px;
+       margin-top: -10px;
+       display: block;
+	   margin-left: auto;
+	   margin-right: auto;
+       width: 70%;
+    
 	}
 	.quote-text {
 		text-align: center;
@@ -1330,11 +1358,11 @@ h4 {
         margin-top: 50px;
     }
     .book-session-text {
-	color: hsla(38, 38%, 25%, 0.89);
-	text-align: center;
-	text-transform: uppercase;
-    word-spacing: 4px;
-    margin-top: 30px;
+	  color: hsla(38, 38%, 25%, 0.89);
+	  text-align: center;
+	  text-transform: uppercase;
+      word-spacing: 4px;
+      margin-top: 30px;
     }
     .btn-book {
         margin-bottom: 30px;
@@ -1349,10 +1377,15 @@ h4 {
     .description-text{
         margin: 0 auto;
         padding-top: 30px;
+        padding-top: 30px;
     }
 	.kundalini-img {
-        margin-top: -20px;
-        padding-left: 80px;
+       margin-top: -10px;
+       display: block;
+	   margin-left: auto;
+	   margin-right: auto;
+       width: 50%;
+    
 	}
 	.quote-text {
 		text-align: center;
@@ -1366,6 +1399,7 @@ h4 {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
     .btn-class-shaman {
         margin-top: 50px;
     }

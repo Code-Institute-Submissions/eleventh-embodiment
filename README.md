@@ -213,6 +213,17 @@ No errors found
    User can also click the "Browse Events" button on the "Home" page which will lead them to the "Events" page.
 
 6. I want to book online classes, workshops and/or retreats
+
+   To book an event,  user can click a button on the "Events" page which will then open a modal where user can create their account and proceed to book desired event.
+
+7. I want to contact the owner to find out more information about their services
+
+   User has few options to contact the site owner:
+    -  by clicking on the email adress in the footer, on all pages. When clicked, the user is redirected to the "Contact" page where they can fill out the form to conact the site owner.\
+    -  Also there is a contact number diplayed in the footer acroos all the pages.\
+    -  User can also contact the site owner via their instagram by clicking on their instagram handle in the footer. Currently if clicked, user is redirected to Instagram "Home" page.
+
+
    
 #### Bugs found during testing
 
@@ -245,7 +256,24 @@ No errors found
 
 
 ### Content
-- All content was provided by the site owner 
+
+- All content was provided by the site owner, however it was borrowed from the following websites:\
+   (Permissions were not obtained to use this content. This content will only be used for the purpose of this project and will be replaced before the site will be in use.)\
+  [The Full Circle Yoga School](https://www.fullcircleyogaschool.com/key-west-kundalini-retreat)\
+  [Holistic Nebrasca](https://www.holisticnebraska.com/kundalini-yoga.html)\
+  [Roaming Yoga](http://web.archive.org/web/20201030022809/https://www.roamingyogava.com/about)\
+  [Mistyc Yogini](https://mysticyogini.wordpress.com/tag/eleventh-embodiment/)\
+  [Command Your Power](https://www.commandyourpower.com/blog/the-3-pillars-of-power)\
+  [Abhyantara Yoga](https://www.abhyantarayoga.com/about-teachers.php) - this website has the same text used in "My Story" section of the "Home" page.However, it is text written about Ana, the site owner, for the purpose of a yoga course she led in India\
+  [Mind Body Green](http://web.archive.org/web/20201107231301/https://www.mindbodygreen.com/articles/kundalini-yoga-101-everything-you-wanted-to-know)\
+  [The Wilde Grace Collective](https://www.thewildgracecollective.com/reiki)\
+  [Shamanic Breathwork - Breathing to heal](https://www.nafas.life/blog/shamanic-breathwork-breathing-to-heal)\
+  [Book Yoga Retreats](https://www.bookyogaretreats.com/arunachala-yoga-centre/11-days-kundalini-awakening-retreat-in-south-goa-india)\
+  [My Body Studios](https://www.mybodystudios.co.uk/classes/beginner-workshops/kundalini-yoga-workshop?mobile=false&options%5Bids%5D=497&options%5Bsite_id%5D=84947)\
+  [My Spirit Experience](https://www.myspiritexperience.com/shamanic-breathwork)\
+  [Andersedman](http://web.archive.org/web/20201030131136/https://andersedman.com/2019/10/03/breathwork/)
+  
+
 
 ### Media
 
@@ -254,11 +282,10 @@ No errors found
 - Sourced images are from:\
   Yoga pose image on "Home" page - Unsplash - <span>Photo by <a href="https://unsplash.com/@sonniehiles?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sonnie Hiles</a> on <a href="https://unsplash.com/s/photos/yoga?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>\
   Reiki image on "Home" page - Pixabay - <a href="https://pixabay.com/users/rhythmuswege-185829/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=285590">Jürgen Rübig</a> from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=285590">Pixabay</a>\
-  Beach Hut image on "Events" page-  <span>Photo by <a href="https://unsplash.com/@sjcbrn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SJ .
-</a> on <a href="https://unsplash.com/s/photos/beach-hut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>\
-- Beach hut interior image on "Events" page- <a href="https://pixabay.com/users/annamos-2406836/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1505461">Anna Moskowitz</a> from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1505461">Pixabay</a>
-- The other images are  all from the private collection of the site owner Ana Trajkovic herself
-- Video on the events page is also provided by the site owner and is her private recording
+  Beach Hut image on "Events" page-  <span>Photo by <a href="https://unsplash.com/@sjcbrn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SJ</a> on <a href="https://unsplash.com/s/photos/beach-hut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>\
+  Beach hut interior image on "Events" page- <a href="https://pixabay.com/users/annamos-2406836/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1505461">Anna Moskowitz</a> from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1505461">Pixabay</a>
+ The other images are  all from the private collection of the site owner Ana Trajkovic herself
+ Video on the events page is also provided by the site owner and is her private recording
 
 ### Acknowledgements
 

@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Ranchers&display=swap');
-
 body {
-    background-image: url("../images/full-bloom.png");
-    font-family: Acme, sans-serif;
-    padding: 0px;
-    margin: 0px;
-    overflow-x: hidden;
-    width: 100%;
+	background-image: url("../images/full-bloom.png");
+	font-family: Acme, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+	width: 100%;
     height: 100%;
-
+   
 }
 
-  
-    /* ========================================= Navbar ============================== */
+
+/* ========================================= Navbar ============================== */
 
 .navbar-style {
 	background-color: rgba(195, 136, 27, 0.1);
@@ -50,9 +49,6 @@ body {
 	transform: scale(1.1);
 }
 
-
-/*----------------------------------------------------------------------*/
-
 .active {
 	border-bottom: 3px solid #c4881be3;
 	text-decoration: none;
@@ -77,7 +73,7 @@ body {
 }
 
 
-/* ---------------------------------------------Hero Image Section ----------------------------------*/
+/* ========================================== Hero Image Section ======================================== */
 
 
 /* Code for hero image and animation borrowed from the Love Running project then edited to fit my website */
@@ -115,13 +111,12 @@ body {
 	height: 750px;
 	width: 100%;
 	overflow: hidden;
-    position: relative;
-    margin-bottom: 20px;
-    
+	position: relative;
+	margin-bottom: 20px;
 }
 
 
-/* ---------------------------------------------Eleventh Embodiment section------------------------------------*/
+/* ============================================ Eleventh Embodiment section ====================================== */
 
 .about-container {
 	background-color: rgba(195, 136, 27, 0.2);
@@ -136,7 +131,6 @@ body {
 	align-items: center;
 	color: #fafafa;
 	text-align: center;
-
 }
 
 .title-text-about {
@@ -148,7 +142,7 @@ body {
 }
 
 
-/* ---------------------------------------------My story-----------------------------------------------------*/
+/* ================================================= My story =============================================== */
 
 .title-text {
 	text-align: center;
@@ -196,6 +190,7 @@ body {
 	font-size: larger;
 }
 
+/* ========================================== Methods Setion ==================================== */
 .yoga-img {
 	margin-left: 120px;
 	margin-top: 50px;
@@ -239,34 +234,34 @@ body {
 }
 
 
-/* ---------------------------------------------------Newsletter---------------------------------*/
+/* ==================================================== Newsletter =========================================*/
 
 .newsletter-heading {
-    padding-top: 30px;
-    
+	padding-top: 30px;
 }
 
 .newsletter-heading h4 {
-    color: hsla(38, 38%, 25%, 0.89);
+	color: hsla(38, 38%, 25%, 0.89);
 }
+
 .newsletter-input {
-  border-radius: 5px;
-  width: 300px;
-  height: 30px;
-  border-color: #c4881be3;
+	border-radius: 5px;
+	width: 300px;
+	height: 30px;
+	border-color: #c4881be3;
 }
+
 form button {
-    color: hsla(38, 38%, 25%, 0.89);
-    background-color: #fafafa;
-    border-radius: 5px;
-    width: 80px;
-    height: 30px;
-    border-color: #c4881be3;
+	color: hsla(38, 38%, 25%, 0.89);
+	background-color: #fafafa;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	border-color: #c4881be3;
 }
 
 
-
-/* ----------------------------------------------------Footer ---------------------------------*/
+/* ======================================================== Footer ===================================== */
 
 footer {
 	height: auto;
@@ -277,16 +272,16 @@ footer {
 
 .follow-heading {
 	margin-top: 30px;
-    text-align: center;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-heading {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-    font-size: small;
-    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
+	font-size: small;
+	text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact-heading a {
@@ -307,7 +302,7 @@ footer {
 }
 
 
-/* Code for social media icons borrowed from Love Running challenge then edited  */
+/* Code for social media icons borrowed from Love Running challenge then edited to suit my project */
 
 .social-media li {
 	display: inline-block;
@@ -328,12 +323,11 @@ footer {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-    font-size: small;
-    text-shadow: #fafafa
-   
+	font-size: small;
 }
 
-/* ----------------------------------------------------Modal -------------------------------*/
+
+/* ========================================================== Modal =================================== */
 
 
 /* Code borrowed from Bootstrap and adapted to my website */
@@ -369,8 +363,8 @@ footer {
 	margin-bottom: 35px;
 	color: #fafafa;
 	background-color: #c4881be3;
-    width: 150px;
-    height: 40px;
+	width: 150px;
+	height: 40px;
 }
 
 .close {
@@ -378,10 +372,10 @@ footer {
 }
 
 
-/* ----------------------------------------------------Contact page -------------------------------*/
+/* ========================================================= Contact page ===================================== */
 
 
-/* form created by using code borrowed from the Love Running challenge and from the Resume Project, and then edited to fit the design of my website */
+/* contact form created by using code borrowed from the Love Running challenge and from the Resume Project, and then edited to fit the design of my website */
 
 .form-section {
 	height: auto;
@@ -420,8 +414,8 @@ h4 {
 	margin-bottom: 5px;
 	color: #fafafa;
 	background-color: #c4881be3;
-    width: 100px;
-    height: 35px;
+	width: 100px;
+	height: 35px;
 }
 
 .label-color {
@@ -429,7 +423,7 @@ h4 {
 }
 
 
-/*-------------------------------------Gallery Page---------------------------------------------------*/
+/* =============================================== Gallery Page =================================================== */
 
 .photos img {
 	max-width: 100%;
@@ -439,7 +433,7 @@ h4 {
 }
 
 
-/*------------------------------------- What I do Page-----------------------------------------------*/
+/* =============================================== What I do Page ================================================= */
 
 .yoga-heading {
 	color: #c4881be3;
@@ -591,7 +585,7 @@ h4 {
 }
 
 
-/*--------------------------Events Page -------------------------------------------------------------------*/
+/* ===================================================== Events Page =======================================================*/
 
 .page-header {
 	font-size: 6vh;
@@ -698,26 +692,10 @@ h4 {
 }
 
 
-/*----------------------------------------------------------Media Queries------------------------------------------------------------------*/
+/* =================================================== Media Queries ========================================================= */
 
 
-/* Media query for the form on the contact page borrowed from the Love Running challenge*/
-
-@media screen and (min-width: 992px) {
-	.center-form {
-		padding-top: 10px;
-		min-height: 240px;
-		max-width: 50%;
-		margin-bottom: 50px;
-		margin-left: 60px;
-	}
-}
-
-
-/*
-
-
-/* ------------------------------------------------------ (Extra Small) Mobile---------------------------------------------------------- */
+/* -------------------------------------------- (Extra Small) Mobile---------------------------------------------------------- */
 
 
 /* ------------------------------------------------ Home Page -------------------------------*/
@@ -730,12 +708,10 @@ h4 {
 		margin-left: 5px;
 		margin-top: 55px;
 		padding-bottom: 0px;
-    }
-    
-    .grow a:hover {
-	transform: scale(0.9);
-    }
-  
+	}
+	.grow a:hover {
+		transform: scale(0.9);
+	}
 	.hero-outer {
 		height: 650px;
 		width: 100%;
@@ -791,9 +767,8 @@ h4 {
 	.yoga-text {
 		text-align: justify;
 		padding: 40px;
-    }
-    
-    .online-session {
+	}
+	.online-session {
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
@@ -814,15 +789,14 @@ h4 {
 		padding: 20px;
 	}
 	.kundalini-img {
-        margin-top: 10px;
-        
+		margin-top: 10px;
 	}
 	.description-text {
 		color: hsla(38, 38%, 25%, 0.89);
 		text-align: justify;
 		font-size: larger;
-        margin: 0 auto;
-        padding-top: 30px;
+		margin: 0 auto;
+		padding-top: 30px;
 	}
 	.methods-text {
 		color: hsla(38, 38%, 25%, 0.89);
@@ -861,8 +835,8 @@ h4 {
 	.btn-class-kundalini {
 		display: table;
 		margin: 0 auto;
-        margin-top: 30px;
-        margin-bottom: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 		color: #fafafa;
 		background-color: #c4881be3;
 		width: 200px;
@@ -889,7 +863,7 @@ h4 {
 }
 
 
-/* ------------------------------------------------ Low Resolution Tablets, Mobiles (Landscape) -------------------------*/
+/* ======================================================= Low Resolution Tablets, Mobiles (Landscape) ========================== */
 
 
 /* ------------------------------------------------ Home Page ---------------------------------------------------*/
@@ -902,11 +876,10 @@ h4 {
 		margin-left: 5px;
 		margin-top: 45px;
 		padding-bottom: 0px;
-    }
-    
-    .grow a:hover {
-	transform: scale(0.9);
-    }
+	}
+	.grow a:hover {
+		transform: scale(0.9);
+	}
 	.hero-outer {
 		height: 655px;
 		width: 100%;
@@ -964,38 +937,36 @@ h4 {
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
-    /* -----------------------------------------------What I Do Page --------------------------------*/
-    .methods-text {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-    }
-    .quote-text {
-        padding: 60px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
+	/* -----------------------------------------------What I Do Page --------------------------------*/
+	.methods-text {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+	}
+	.quote-text {
+		padding: 60px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
 	.description-text {
-        margin: 0 auto;
-        padding-top: 30px;
-    }
-
-    .kundalini-img {
-       margin-top: 10px;
-       display: block;
-	   margin-left: auto;
-	   margin-right: auto;
-       width: 70%;
-    }
-    
-    .kundalini-btn-parent {
-        display: flex;
-    }
-    .btn-class-kundalini {
-          justify-items: center;
-          margin-top: 40px;
-          margin-bottom: 50px;
-    }
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+	.kundalini-img {
+		margin-top: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	.kundalini-btn-parent {
+		display: flex;
+	}
+	.btn-class-kundalini {
+		justify-items: center;
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
 	/* -----------------------------------------------Events Page --------------------------------*/
 	.video-position video {
 		width: 70%;
@@ -1018,23 +989,22 @@ h4 {
 }
 
 
-/* ------------------------------------------------ Medium  -------------------------------*/
+/* =============================================================== Medium  =================================================== */
 
 @media (min-width: 768px) and (max-width: 992px) {
 	/* ------------------------------------------------ Home Page -------------------------------*/
 	.navbar {
 		margin-top: -40px;
-    }
-    
-    .grow a:hover {
-	transform: scale(0.9);
-    }
+	}
+	.grow a:hover {
+		transform: scale(0.9);
+	}
 	.hero-outer {
 		height: 680px;
 		width: 100%;
 		overflow: hidden;
-        position: relative;
-        margin-bottom: 10px;
+		position: relative;
+		margin-bottom: 10px;
 	}
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
@@ -1075,19 +1045,18 @@ h4 {
 		width: 70%;
 	}
 	.yoga-text {
-        margin-top: -5px;
+		margin-top: -5px;
 		text-align: justify;
 		padding-right: 35px;
-    }
-    
-    .yoga-btn {
-        margin-top: -25px;
-    }
+	}
+	.yoga-btn {
+		margin-top: -25px;
+	}
 	.quote-text {
 		text-align: center;
 		display: block;
-        justify-items: center;
-        padding-left: 40px;
+		justify-items: center;
+		padding-left: 40px;
 	}
 	/* ------------------------------------------------ What I Do Page -------------------------------*/
 	.breathing-img {
@@ -1100,29 +1069,24 @@ h4 {
 		text-align: center;
 		justify-items: center;
 	}
-	
-    .description-text{
-        margin: 0 auto;
-        padding-top: 30px;
-       
-    }
+	.description-text {
+		margin: 0 auto;
+		padding-top: 30px;
+	}
 	.kundalini-img {
-       margin-top: -20px;
-       display: block;
-	   margin-left: auto;
-	   margin-right: auto;
-       width: 70%;
-    
-    }
-    
-    .btn-class-kundalini {
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-
-    .btn-class-shaman {
-        margin-top: 50px;
-    }
+		margin-top: -20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	.btn-class-kundalini {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.btn-class-shaman {
+		margin-top: 50px;
+	}
 	/* -------------------------------------------Events Page -----------------------------------*/
 	.video-position video {
 		width: 60%;
@@ -1143,9 +1107,11 @@ h4 {
 }
 
 
-/* -------------------------------------------------------------------------------- Large (Desktop) -------------------- */
+/* ============================================================================= Large (Desktop) =============================== */
 
 @media (min-width: 993px) and (max-width: 1200px) {
+
+    /* -------------------------------------------- Home Page --------------------------------------------- */
 	.navbar {
 		margin-top: -20px;
 	}
@@ -1186,55 +1152,64 @@ h4 {
 	.online-session {
 		margin-top: 50px;
 		margin-bottom: 50px;
-    }
-    
-    .yoga-img {
-        margin-left: 10px;
+	}
+	.yoga-img {
+		margin-left: 10px;
 		margin-top: 50px;
-    }
-
-    .yoga-text {
-        padding-right: 50px;
-    }
-    /*---------------------------------------------------------- What I Do Page ---------------------------------*/
-    .description-text{
-        margin: 0 auto;
-        padding-top: 30px;
-    }
+	}
+	.yoga-text {
+		padding-right: 50px;
+	}
+	/*---------------------------------------------------------- What I Do Page ---------------------------------*/
+	.description-text {
+		margin: 0 auto;
+		padding-top: 30px;
+	}
 	.kundalini-img {
-    margin-top: -20px;
-    display: block;
-	margin-left: auto;
-	margin-right: auto;
-       width: 60%;
-    
+		margin-top: -20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
 	}
 	.quote-text {
 		text-align: center;
-    }
-    
-    .kundalini-btn-parent {
-        display:flex;
-    }
-    .btn-class-kundalini {
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .btn-class-shaman {
-        margin-top: 30px;
-    }
-	/*---------------------------------------------------------- Events Page -----------------------------------------*/
+	}
+	.kundalini-btn-parent {
+		display: flex;
+	}
+	.btn-class-kundalini {
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.btn-class-shaman {
+		margin-top: 30px;
+	}
+	/*---------------------------------------------------------- Events Page ---------------------------------------- */
 	.video-position video {
 		width: 70%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+    }
+    
+    /* ----------------------------------------------- Contact Page --------------------------------------------- */
+    /* Media query for the form on the contact page borrowed from the Love Running challenge*/
+
+    @media screen and (min-width: 992px) {
+	.center-form {
+		padding-top: 10px;
+		min-height: 240px;
+		max-width: 50%;
+		margin-bottom: 50px;
+		margin-left: 60px;
 	}
 }
-
-
+}
 /* ======================================================================== Large (Desktop) ================================= */
+
+
+/* ---------------------------- Home Page ------------------------------------------------------- */
 
 @media (min-width: 1201px) and (max-width: 1280px) {
 	.navbar {
@@ -1288,39 +1263,31 @@ h4 {
 	.quote-text {
 		text-align: center;
 	}
-	  .description-text{
-        margin: 0 auto;
-        padding-top: 30px;       
-    }
-
-      .description-text{
-        margin: 0 auto;
-        padding-top: 30px;
-    }
+	.description-text {
+		margin: 0 auto;
+		padding-top: 30px;
+	}
 	.kundalini-img {
-       margin-top: -10px;
-       display: block;
-	   margin-left: auto;
-	   margin-right: auto;
-       width: 70%;
-    
+		margin-top: -10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
 	}
 	.quote-text {
 		text-align: center;
-    }
-    
-    .kundalini-btn-parent {
-        display:flex;
-    }
-    .btn-class-kundalini {
-        justify-content: center;
-        margin-top: 50px;
-    }
-    
-    .btn-class-shaman {
-        margin-top: 30px;
-    }
-    /* ------------------------------------- Events Page --------------------------------------*/
+	}
+	.kundalini-btn-parent {
+		display: flex;
+	}
+	.btn-class-kundalini {
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.btn-class-shaman {
+		margin-top: 30px;
+	}
+	/* ------------------------------------- Events Page --------------------------------------*/
 	.video-position video {
 		width: 60%;
 		display: block;
@@ -1333,6 +1300,8 @@ h4 {
 /* ======================================================================== Higher resolution Desktop ========================= */
 
 @media screen and (min-width: 1281px) {
+
+    /* ---------------------------------------------------------- Home Page ------------------------------*/
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
 		height: 310px;
@@ -1365,52 +1334,52 @@ h4 {
 	}
 	.yoga-img {
 		margin-left: 65px;
-        margin-top: 50px;
+		margin-top: 50px;
+	}
+	.book-session-text {
+		color: hsla(38, 38%, 25%, 0.89);
+		text-align: center;
+		text-transform: uppercase;
+		word-spacing: 4px;
+		margin-top: 30px;
+	}
+	.btn-book {
+		margin-bottom: 30px;
     }
-    .book-session-text {
-	  color: hsla(38, 38%, 25%, 0.89);
-	  text-align: center;
-	  text-transform: uppercase;
-      word-spacing: 4px;
-      margin-top: 30px;
+    
+     /* -------------------------------------------------------What I Do Page ----------------------------------- */
+	.description-text {
+		margin: 0 auto;
+		padding-top: 30px;
+		
+	}
+	.kundalini-img {
+		margin-top: -10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.quote-text {
+		text-align: center;
+	}
+	.kundalini-btn-parent {
+		display: flex;
+	}
+	.btn-class-kundalini {
+		justify-content: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.btn-class-shaman {
+		margin-top: 50px;
     }
-    .btn-book {
-        margin-bottom: 30px;
-    }
+    
+     /* -------------------------------------------------------Events Page ----------------------------------- */
 	.video-position video {
 		width: 50%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-    }
-    
-    .description-text{
-        margin: 0 auto;
-        padding-top: 30px;
-        padding-top: 30px;
-    }
-	.kundalini-img {
-       margin-top: -10px;
-       display: block;
-	   margin-left: auto;
-	   margin-right: auto;
-       width: 50%;
-    
 	}
-	.quote-text {
-		text-align: center;
-    }
-    
-    .kundalini-btn-parent {
-        display:flex;
-    }
-    .btn-class-kundalini {
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .btn-class-shaman {
-        margin-top: 50px;
-    }
 }

@@ -277,16 +277,16 @@ Returned no errors
 - All internal links work as intended
 - All exteranl links open in a new tab
 - All buttons have the same hover effect and they function as intended - either redirect to another page or open a modal
-- Form in the modal is working properly\
-    - User cannot submit if there is no input in the name or the email address field\
-    - User cannot submit if the email is not in the right format - with an @ and a domain\
-    - Modal button works\
+- Form in the modal is working properly
+    - User cannot submit if there is no input in the name or the email address field
+    - User cannot submit if the email is not in the right format - with an @ and a domain
+    - Modal button works
     - User can close the modal by clicking on the "X" in the top right corner
 - Newsletter form cannot be submitted if there is no email entered in the input field
 - Video plays when user clicks "play" button 
 - The contact form on the "Contact" page is working properly
     - it will not submit if there is no name entered
-    - it will not submit if there is no email or if email is not in the right format\
+    - it will not submit if there is no email or if email is not in the right format
     - Message is not a required field so form will submit without it
    
 ### Bugs found during testing

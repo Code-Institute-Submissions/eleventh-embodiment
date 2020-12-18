@@ -782,7 +782,12 @@ h4 {
 	.online-session {
 		margin-top: 40px;
 		margin-bottom: 40px;
-	}
+    }
+    
+    .newsletter-heading {
+        padding-top: 0px;
+        margin-top: 10px;
+    }
 	/* ------------------------------------------------ What I Do Page -------------------------------*/
 	.yoga-heading {
 		margin-top: 30px;
@@ -947,7 +952,12 @@ h4 {
 	.online-session {
 		margin-top: 50px;
 		margin-bottom: 50px;
-	}
+    }
+    
+    .newsletter-heading {
+        padding-top: 0px;
+        margin-top: 10px;
+    }
 	/* -----------------------------------------------What I Do Page --------------------------------*/
 	.methods-text {
 		padding-left: 0px;
@@ -1062,14 +1072,20 @@ h4 {
 	}
 	.yoga-btn {
 		margin-top: -25px;
-	}
+    }
+    
+    .newsletter-heading {
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+
+    /* ------------------------------------------------ What I Do Page -------------------------------*/
 	.quote-text {
 		text-align: center;
 		display: block;
 		justify-items: center;
 		padding-left: 40px;
 	}
-	/* ------------------------------------------------ What I Do Page -------------------------------*/
 	.breathing-img {
 		display: block;
 		max-width: 100%;

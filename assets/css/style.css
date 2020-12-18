@@ -693,7 +693,17 @@ h4 {
 
 
 /* =================================================== Media Queries ========================================================= */
+ /* Media query for the form on the contact page borrowed from the Love Running challenge*/
 
+@media screen and (min-width: 992px) {
+	.center-form {
+		padding-top: 10px;
+		min-height: 240px;
+		max-width: 50%;
+		margin-bottom: 50px;
+		margin-left: 60px;
+    }
+}
 
 /* -------------------------------------------- (Extra Small) Mobile---------------------------------------------------------- */
 
@@ -721,7 +731,8 @@ h4 {
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
 		color: #584628;
-		height: 285px;
+        height: 285px;
+        margin-top: -20px;
 	}
 	.title-text-about {
 		text-align: center;
@@ -1193,19 +1204,10 @@ h4 {
 		margin-right: auto;
     }
     
-    /* ----------------------------------------------- Contact Page --------------------------------------------- */
-    /* Media query for the form on the contact page borrowed from the Love Running challenge*/
+   
+   
+}
 
-    @media screen and (min-width: 992px) {
-	.center-form {
-		padding-top: 10px;
-		min-height: 240px;
-		max-width: 50%;
-		margin-bottom: 50px;
-		margin-left: 60px;
-	}
-}
-}
 /* ======================================================================== Large (Desktop) ================================= */
 
 
@@ -1293,7 +1295,9 @@ h4 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-	}
+    }
+    
+   
 }
 
 

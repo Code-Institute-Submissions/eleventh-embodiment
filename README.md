@@ -229,29 +229,46 @@ Returned no errors
    Logo, when clicked, leads to the "Home" page regardless of the page user is on.\
    There is a line under each navbar menu item showing the user what page he is currently on.
 
+   ![User Story](assets/images/user-story-1.jpg)
+
 2. I want to learn more about the site owner and their skills and offering
 
    When user gets to the "Home" page they can immediately see site owners story, their skills and experience.\
    Under that section, they can see the section with the methods the site owner uses in her practice and they can click a button to learn more.\
    "Learn More" button, when clicked, leads to the "What I Do" page where the user can find our more information about each of the methods site owner uses.
+ 
+![User Story](assets/images/user-two.jpg) 
+
+![User Story](assets/images/user-two-a.jpg)
+
 
 3. I want to be able to see the website clearly on my mobile device
 
    Extensive testing was done, as described in the device testing above, to make sure that the page renders well on all screen sizes but with mobile first approach in mind.
+   
+   ![User Story](assets/images/user-three.jpg)
+
 
 4. I want to find ways to follow the owner on different social media platforms
   
    User can find the owners social media in the footer on all the pages. Icons, when clicked, open in a new window and currently they show the "Home" page of the respective social media.\
    In future this icons will lead to the site owners actual social media accounts.
+  
+   ![User Story](assets/images/user-four.jpg)
+
 
 5. I want to check if there are any new classes and/or retreats
 
    From the "Home" page the user can navigate to the "Events" page where all the upcoming events - retreats, workshops and classes are listed.\
    User can also click the "Browse Events" button on the "Home" page which will lead them to the "Events" page.
 
+   ![User Story](assets/images/user-five.jpg)
+
 6. I want to book online classes, workshops and/or retreats
 
-   To book an event,  user can click a button on the "Events" page which will then open a modal where user can create their account and proceed to book desired event.
+   To book an event,  user can click a "Book Workshop" or "Book Retreat" button on the "Events" page which will then open a modal where user can create their account and proceed to book desired event.
+   
+   ![User Story](assets/images/user-six.jpg)
 
 7. I want to contact the owner to find out more information about their services
 
@@ -259,6 +276,9 @@ Returned no errors
     -  by clicking on the email address in the footer, on all pages. When clicked, the user is redirected to the "Contact" page where they can fill out the form to conact the site owner
     -  Also there is a contact number diplayed in the footer across all the pages
     -  User can also contact the site owner via their instagram, by clicking on their instagram handle in the footer. Currently, if clicked, user is redirected to Instagram's "Home" page
+
+    ![User Story](assets/images/user-seven.jpg)
+
 
 8.  I want to see if there are any new upcoming events 
 
@@ -269,6 +289,7 @@ Returned no errors
 
    To sign up to the newsletter, the user can type their email address in the input field in the footer. It is available on all the pages.
 
+  ![User Story](assets/images/user-four.jpg)
 
 ### Conclusion
 

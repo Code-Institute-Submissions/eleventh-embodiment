@@ -121,10 +121,10 @@ Initial wireframes were not changed so I can showcase the original idea which ul
  Google font Acme was used throughout the website 
 
 #### Colors
-  An off white shade #fafafa was used for the text to contrast the gold #c4881be3 backgrounds.
-  The same gold color was used for borders and titles and quotes
-  For the text, the greyish/brown hsla(38, 38%, 25%, 0.89) color was used for easier reading as a lot of backgrounds are white
-  There was a need to use text-shadow rgba(0, 0, 0, 0.281) on some titles and navigation menu for easier reading of gold or white letters.
+  An off white shade #fafafa was used for the text to contrast the gold #c4881be3 backgrounds.\
+  The same gold color was used for borders and titles and quotes.\
+  For the text, the greyish/brown hsla(38, 38%, 25%, 0.89) color was used for easier reading.\
+  There was a need to use text-shadow rgba(0, 0, 0, 0.3) on some titles and on the qoute, for easier reading of gold or white letters.
 
 
 
@@ -149,14 +149,14 @@ Initial wireframes were not changed so I can showcase the original idea which ul
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the project's code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 1. [TinyPNG](https://tinypng.com/)
     - TinyPNG was used to reduce the overall total image size
 1. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
  - Used during the process of creating the website to help with design and debugging some issues
 
 ## Bugs found while creating the website
-- Font Awesome icons were not showing in the footer of the home page while they were showing on other pages. I then realized I had different font awesome version in the
+- Font Awesome icons were not showing in the footer of the "Home" page while they were showing on other pages. I then realized I had different font awesome version in the
  index.html and after I replaced it, it was working
 - Navbar collapsed menu button was not showing but it was there and working when clicked. With help of my mentor, we found the solution - adding the class "navbar-light" in the HTML solved the problem
 
@@ -227,7 +227,7 @@ Returned no errors
    Upon entering the website the user can see the navigation bar with different pages, which makes it easy to navigate the website.\
    Each menu item, when clicked, redirects to a coresponding page.\
    Logo, when clicked, leads to the "Home" page regardless of the page user is on.\
-   There is a line under each navbar menu item showing the user what page he is currently on.
+   There is a line under navbar menu item, to show the user what page they are  currently on.
 
    ![User Story](assets/images/user-story-1.jpg)
 
@@ -273,7 +273,7 @@ Returned no errors
 7. I want to contact the owner to find out more information about their services
 
    User has few options to contact the site owner:
-    -  by clicking on the email address in the footer, on all pages. When clicked, the user is redirected to the "Contact" page where they can fill out the form to conact the site owner
+    -  By clicking on the email address in the footer, on all pages. When clicked, the user is redirected to the "Contact" page where they can fill out the form to conact the site owner
     -  Also there is a contact number diplayed in the footer across all the pages
     -  User can also contact the site owner via their instagram, by clicking on their instagram handle in the footer. Currently, if clicked, user is redirected to Instagram's "Home" page
 
@@ -306,8 +306,8 @@ Returned no errors
 - Newsletter form cannot be submitted if there is no email entered in the input field
 - Video plays when user clicks "play" button 
 - The contact form on the "Contact" page is working properly
-    - it will not submit if there is no name entered
-    - it will not submit if there is no email or if email is not in the right format
+    - It will not submit if there is no name entered
+    - It will not submit if there is no email or if email is not in the right format
     - Message is not a required field so form will submit without it
    
 ### Bugs found during testing
@@ -322,7 +322,7 @@ Returned no errors
 The project was deployed to GitHub Pages using the following steps:
 
 - A local project was created in GitHub with a new repository called 'Eleventh Embodiment'
-- During the creation of the project regular commits were added which were thrn pushed to the GitHub website before deployment
+- During the creation of the project regular commits were added which were then pushed to the GitHub website before deployment
 - The project was deployed by logging in to GitHub and locating the [GitHub Repository](https://github.com/TanYa-Go/eleventh-embodiment)
 - At the top of the Repository, locate the "Settings" Button and click
 - Scroll down the Settings page until the "GitHub Pages" Section was found
@@ -356,14 +356,14 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Content
 
-- All content was provided by the site owner, however it was borrowed from the following websites:\
-   (Permissions were not obtained to use this content. This content will only be used for the purpose of this project and will be replaced before the site will be in use.)\
+- All content was provided by the site owner, however it was borrowed from the following websites:
+   
   [The Full Circle Yoga School](https://www.fullcircleyogaschool.com/key-west-kundalini-retreat)\
   [Holistic Nebrasca](https://www.holisticnebraska.com/kundalini-yoga.html)\
   [Roaming Yoga](http://web.archive.org/web/20201030022809/https://www.roamingyogava.com/about)\
   [Mistyc Yogini](https://mysticyogini.wordpress.com/tag/eleventh-embodiment/)\
   [Command Your Power](https://www.commandyourpower.com/blog/the-3-pillars-of-power)\
-  [Abhyantara Yoga](https://www.abhyantarayoga.com/about-teachers.php) - this website has the same text used in "My Story" section of the "Home" page.However, it is text written about Ana, the site owner, for the purpose of a yoga course she led in India\
+  [Abhyantara Yoga](https://www.abhyantarayoga.com/about-teachers.php) - this website has the same text used in "My Story" section of the "Home" page. However, it is text written about Ana, the site owner, for the purpose of a yoga course she led in India\
   [Mind Body Green](http://web.archive.org/web/20201107231301/https://www.mindbodygreen.com/articles/kundalini-yoga-101-everything-you-wanted-to-know)\
   [The Wilde Grace Collective](https://www.thewildgracecollective.com/reiki)\
   [Shamanic Breathwork - Breathing to heal](https://www.nafas.life/blog/shamanic-breathwork-breathing-to-heal)\
@@ -372,7 +372,7 @@ The project was deployed to GitHub Pages using the following steps:
   [My Spirit Experience](https://www.myspiritexperience.com/shamanic-breathwork)\
   [Andersedman](http://web.archive.org/web/20201030131136/https://andersedman.com/2019/10/03/breathwork/)
   
-
+Permissions were not obtained to use this content. This content will only be used for the purpose of this project and will be replaced before the site will be in use.
 
 ### Media
 

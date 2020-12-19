@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Do+Hyeon&family=Ranchers&display=swap');
+
 body {
 	background-image: url("../images/full-bloom.png");
 	font-family: Acme, sans-serif;
@@ -9,7 +10,6 @@ body {
     height: 100%;
    
 }
-
 
 /* ========================================= Navbar ============================== */
 
@@ -79,7 +79,6 @@ body {
 /* Code for hero image and animation borrowed from the Love Running project then edited to fit my website */
 
 .hero-container {
-	z-index: -1;
 	max-width: 100%;
 	height: 750px;
 	background: url("../images/hero.jpg") no-repeat center center;
@@ -588,13 +587,13 @@ h4 {
 /* ===================================================== Events Page =======================================================*/
 
 .page-header {
-	font-size: 6vh;
+	font-size: 50px;
 	color: #c4881be3;
 	text-align: center;
 	text-transform: uppercase;
 	justify-content: center;
 	letter-spacing: 4px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .events-title {
@@ -731,7 +730,7 @@ h4 {
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
 		color: #584628;
-        height: 285px;
+        height: 30vh;
         margin-top: -20px;
 	}
 	.title-text-about {
@@ -748,7 +747,6 @@ h4 {
 		color: #584628;
 		text-align: center;
 		font-size: large;
-		padding: 5px;
 		margin-top: -10px;
 	}
 	.owner-img {
@@ -895,8 +893,9 @@ h4 {
 	}
 	.grow a:hover {
 		transform: scale(0.9);
-	}
-	.hero-outer {
+    }
+    
+    .hero-outer {
 		height: 655px;
 		width: 100%;
 		overflow: hidden;
@@ -904,7 +903,8 @@ h4 {
 	}
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
-		height: 400px;
+        height: 400px;
+        margin-top:20px;
 	}
 	.title-text-about {
 		text-align: center;
@@ -922,7 +922,7 @@ h4 {
 		text-align: center;
 		font-size: larger;
 		padding-top: 15px;
-		margin-top: -30px;
+		margin-top: -20px;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -958,7 +958,11 @@ h4 {
         padding-top: 0px;
         margin-top: 10px;
     }
-	/* -----------------------------------------------What I Do Page --------------------------------*/
+    /* -----------------------------------------------What I Do Page --------------------------------*/
+    
+    .page-header {
+        font-size: 50px;
+    }
 	.methods-text {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -1235,7 +1239,7 @@ h4 {
 	}
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
-		height: 300px;
+		height: 250px;
 	}
 	.hero-outer {
 		height: 750px;
@@ -1324,7 +1328,7 @@ h4 {
     /* ---------------------------------------------------------- Home Page ------------------------------*/
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
-		height: 310px;
+		height: 250px;
 	}
 	.title-text-about {
 		text-align: center;

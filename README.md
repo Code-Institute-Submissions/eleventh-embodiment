@@ -118,7 +118,7 @@ Initial wireframes were not changed so I can showcase the original idea which ul
 ### Design 
 
  #### Typogroaphy 
- Google font Acme was used throughout the website 
+ Google font Acme was used throughout the website, with the fallback font of sans serif in case the original one doesn't display.
 
 #### Colors
   An off white shade #fafafa was used for the text to contrast the gold #c4881be3 backgrounds.\
@@ -314,7 +314,8 @@ Returned no errors
 
 - Navigation menu items were hovering outside of the page border on screens smaller then 992px, so I had to reduce grow hover function "transform" from the scale(1.1)to (0.9)
 - There was a need to align some images and text depending on the screen size, which was accomplished with a combination of Bootstrap grid and media queries
-- There was a horizontal scroll showing which was removed by using overflow-x: hidden
+- There was a horizontal scroll showing on some screen sizes which was removed by using overflow-x: hidden
+- Page titles were smaller on sizes 411px to 768px, which was fixed by adding font size for the titles in media queries
 
 
 ## Deployment

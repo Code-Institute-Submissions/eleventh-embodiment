@@ -245,7 +245,7 @@ body {
 
 .newsletter-input {
 	border-radius: 5px;
-	width: 300px;
+	width: 280px;
 	height: 30px;
 	border-color: #c4881be3;
 }
@@ -730,7 +730,7 @@ h4 {
 	.about-container {
 		background-color: rgba(195, 136, 27, 0.5);
 		color: #584628;
-        height: 30vh;
+        height: 300px;
         margin-top: -20px;
 	}
 	.title-text-about {

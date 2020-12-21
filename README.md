@@ -384,8 +384,10 @@ Permissions were not obtained to use this content. This content will only be use
   Reiki image on "Home" page - Pixabay - <a href="https://pixabay.com/users/rhythmuswege-185829/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=285590">Jürgen Rübig</a> from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=285590">Pixabay</a>\
   Beach Hut image on "Events" page-  <span>Photo by <a href="https://unsplash.com/@sjcbrn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SJ</a> on <a href="https://unsplash.com/s/photos/beach-hut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>\
   Beach hut interior image on "Events" page- <a href="https://pixabay.com/users/annamos-2406836/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1505461">Anna Moskowitz</a> from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1505461">Pixabay</a>\
- The other images are  all from the private collection of the site owner, Ana Trajkovic\
- Video on the events page is also provided by the site owner and is her private recording
+- The other images are  all from the private collection of the site owner, Ana Trajkovic\
+- Video on the events page is also provided by the site owner and is her private recording\
+- Body background image is sourced from [Toptal](https://www.toptal.com/designers/subtlepatterns/?s=full+bloom)
+
 
 ## Acknowledgements
 
